@@ -1,20 +1,18 @@
-<?xml-model href="../../Projects/TEI_Memoirs/out/MoravianMemoirs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../Projects/TEI_Memoirs/out/MoravianMemoirs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/moravianlives/ML/master/CodeScripts/out/MoravianMemoirs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/moravianlives/ML/master/CodeScripts/CSS/moravian_style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>Crispin Taylor: Memoir</title>
 				<funder>The Moravian Lives Project</funder>
-				<principal><persName xml:id="kfaull">Katherine Mary Faull</persName>, Principal
-					Investigator <orgName>Bucknell University</orgName>
+				<principal><persName xml:id="kfaull">Katherine Mary Faull</persName>, Principal Investigator <orgName>Bucknell University</orgName>
 					<address>
 						<addrLine>Lewisburg, Pennsylvania</addrLine>
 					</address>
 					<email>faull@bucknell.edu</email>
 				</principal>
-				<principal><persName>Christer Ahlberger</persName>, Principal Investigator,
-					2015-2018 <orgName>University of Gothenburg</orgName>
+				<principal><persName>Christer Ahlberger</persName>, Principal Investigator, 2015-2018 <orgName>University of Gothenburg</orgName>
 					<address>
 						<addrLine>Gothenburg, Sweden</addrLine>
 					</address>
@@ -84,8 +82,7 @@
 			<publicationStmt>
 				<distributor>The Moravian Lives Project</distributor>
 				<availability>
-					<licence>Creative Commons Attribution-NonCommercial-ShareAlike 4.0
-						International</licence>
+					<licence>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</licence>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
@@ -93,20 +90,908 @@
 					<msIdentifier>
 						<repository ref="#mlpla000003">Moravian Archives, Fulneck</repository>
 						<msName type="memoir" ana="#MAF/Ful_3_09_TaylorCrispin">Crispin Taylor</msName>
-						<msName
-							facs="http://moravianlives.bucknell.edu/MAF/Ful_3_09_TaylorCrispin-01.jpg"/>
-						<msName
-							facs="http://moravianlives.bucknell.edu/MAF/Ful_3_09_TaylorCrispin-02.jpg"/>
-						<msName
-							facs="http://moravianlives.bucknell.edu/MAF/Ful_3_09_TaylorCrispin-04.jpg"/>
-						<msName
-							facs="http://moravianlives.bucknell.edu/MAF/Ful_3_09_TaylorCrispin-07.jpg"
-						/>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_09_TaylorCrispin-01.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_09_TaylorCrispin-02.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_09_TaylorCrispin-04.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_09_TaylorCrispin-07.jpg"/>
 					</msIdentifier>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
-		<profileDesc>
+		
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?rs_annotation_20200910151053644",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-09-10T19:10:53.644Z",
+	"dcterms:issued": "2020-09-10T20:15:57.430Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?rs_annotation_20200910151053644#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?rs_annotation_20200910151053644#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Occupation",
+		"@id": "#mlocc000045",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151218404",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-09-10T19:12:18.404Z",
+	"dcterms:issued": "2020-09-10T20:15:57.432Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151218404#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151218404#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1748-10-01"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151237888",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-09-10T19:12:37.888Z",
+	"dcterms:issued": "2020-09-10T20:15:57.433Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151237888#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151237888#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1749-03-24"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151302965",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-09-10T19:13:02.965Z",
+	"dcterms:issued": "2020-09-10T20:15:57.433Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151302965#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151302965#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1752-10-07"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151311294",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-09-10T19:13:11.294Z",
+	"dcterms:issued": "2020-09-10T20:15:57.433Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151311294#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151311294#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[4]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1752-10-28"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?person_annotation_20200910151405946",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-09-10T19:14:05.946Z",
+	"dcterms:issued": "2020-09-10T20:15:57.433Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?person_annotation_20200910151405946#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?person_annotation_20200910151405946#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[4]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "#mlper000648",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151416182",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-09-10T19:14:16.182Z",
+	"dcterms:issued": "2020-09-10T20:15:57.433Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151416182#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151416182#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[5]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1752-11-12"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151429144",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-09-10T19:14:29.144Z",
+	"dcterms:issued": "2020-09-10T20:15:57.434Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151429144#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151429144#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[3]/p/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1752-11-19"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151454435",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-09-10T19:14:54.435Z",
+	"dcterms:issued": "2020-09-10T20:15:57.434Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151454435#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151454435#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[3]/p/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1752-11-29"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151535612",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-09-10T19:15:35.612Z",
+	"dcterms:issued": "2020-09-10T20:15:57.434Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151535612#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151535612#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[3]/p/date[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1752-12-12"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151542823",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-09-10T19:15:42.823Z",
+	"dcterms:issued": "2020-09-10T20:15:57.434Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151542823#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151542823#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[3]/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1752-12-17"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151611453",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-09-10T19:16:11.453Z",
+	"dcterms:issued": "2020-09-10T20:15:57.434Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151611453#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/schaumju/ML/master/Fulneck/SemanticXML/taylor_crispin.xml?date_annotation_20200910151611453#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[3]/p[2]/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1752-12-15"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description></rdf:RDF></xenoData><profileDesc>
 			<particDesc>
 				<person role="subject">
 					<persName ref="#mlper000562">Crispin Taylor</persName>
@@ -128,217 +1013,227 @@
 			<div type="memoir">
 				<head>Crispin Taylor</head>
 				<div type="page" n="1">
-					<head type="page">1</head>
-					<pb n="1" facs="url"/>
-					<pb xml:id="Ful_3_09_TaylorCrispin-01.jpg" n="1"/>
+					<pb n="1" facs="https://s3.amazonaws.com/moravianlives.bucknell.edu/MAF/Ful_3_09_TaylorCrispin-01.jpg"/>
 					<p>
-						<persName ref="#mlper000562">Crispin Taylor</persName>, was born in
-							<placeName>Wyke</placeName> in the <placeName>Parish of
-							Birstall</placeName>
-						<date type="birth" when-iso="1698-04-26">April y<hi rend="superscript"
-								>e</hi> 26, 1698</date>, and lived with his Father, who learnd him
-						the Trade of a <name occupation="shoemaker">Shoemaker</name>, till <date
-							when-iso="1722-04">April 1722</date>, being then 24 years of Age he was
-							<name event="marriage">married</name> to <persName>Mary
-							Wilkinson</persName>, who is his present Wife, and had by her 9
-						Children, four of which are left behind, the other five went home before
-						him. In his married State he approved himself a carefull, lo ving father and
-						a tender Husband.</p>
-					<p> When <persName ref="#mlper000536">Mr. Ingham</persName> first began to
-						preach here about, he soon went to hear him, and his heart was touch<hi
-							rend="superscript">d</hi> by the <roleName type="honorific">holy
-							Ghost</roleName> in the first <name event="religious">Sermon</name> he
-						heard. From that time, he sought all Opportunities to hear the Gospel of our
-							D<hi rend="superscript">r</hi>
-						<roleName type="honorific">Saviours</roleName> Death and Attonement After
-						the Societies were settled here in <placeName ref="#mlpla000084"
-							>Yorkshire</placeName>, and put under the Care of the
-							<orgName>Brethren</orgName>, he and his Wife upon their Request were
-						also taken in amongst them, which was a great Satisfaction to both, and
-						proved a Blessing to their hearts, which made them some time after very
-						desirous to be taken into the <orgName>Congregation</orgName> and to be in a
-						closer Connexion with the B<hi rend="superscript">rn</hi>. He therefore
-						spoke with <roleName en="brother">B<hi rend="superscript">r</hi></roleName>
-						<persName>Toltshig</persName> about it, expressing his hearts desire to be
+						<persName ref="#mlper000562" cert="high">Crispin Taylor</persName>, was <name event="birth" when-iso="1698-04-26">born in <placeName ref="#mlpla000102" cert="high">Wyke in the Parish
+<lb/>
+of Birstall</placeName></name>
+						<date type="birth" when-iso="1698-04-26">April y<hi rend="superscript">e</hi> 26, 1698</date>, and lived with <lb/> his Father, who learnd
+						him the Trade of a <rs ref="#mlocc000045" type="http://sparql.cwrc.ca/ontology/cwrc#Occupation" cert="high">Shoemaker</rs>, <lb/> till
+							<date when-iso="1722-04">April 1722</date>, being then 24 years of Age
+						he was <lb/>
+						<name event="marriage" when-iso="1722-04">married to <persName ref="#mlper000690" cert="high" type="real">Mary Wilkinson</persName></name>, who is his present Wife, <lb/> and had by
+						her 9 Children, four of which are left <lb/> behind, the other five went
+						home before him. In his <lb/> married State he approved himself a carefull,
+						<name emotion="loving">lo-
+<lb/>
+ving</name> father and a <name emotion="tender">tender</name> Husband.</p>
+					<p> When <persName ref="#mlper000536" cert="high">Mr. Ingham</persName> first began to preach
+						here about, <lb/> he soon went to hear him, and his <name emotion="heart was touched">heart was touch<hi rend="superscript">d</hi>
+<lb/></name>by the <roleName type="honorific">holy Ghost</roleName> in the first
+							<name event="religious">Sermon</name> he heard. <lb/> From that time, he
+						sought all Opportunities to hear <lb/> the Gospel of our D<hi rend="superscript">r</hi>
+						<roleName type="honorific">Saviours</roleName> Death and Attonement <lb/>
+						After the Societies were settled here in <placeName ref="#mlpla000084" cert="high">Yorkshire</placeName>, <lb/> and put under the Care of the
+							<orgName>Brethren</orgName>, he and <lb/> his Wife upon their Request
+						were also taken in <lb/> amongst them, which was a <name emotion="great satisfaction">great Satisfaction</name> to
+						<lb/> both, and proved a <name emotion="blessing">Blessing</name> <name emotion="to their hearts">to their hearts</name>, which <lb/> made them
+						some time after <name emotion="very desirous">very desirous</name> to be ta- <lb/> ken into the
+							<orgName>Congregation</orgName> and to be in a closer Con- <lb/> nexion
+						with the B<hi rend="superscript">rn</hi>. He therefore spoke with <lb/>
+						<persName ref="#mlper0006927" cert="high"><roleName en="brother">B<hi rend="superscript">r</hi></roleName>
+							Toltshig</persName> about it, expressing his <name emotion="hearts">hearts</name> <name emotion="desire">desire</name> <lb/> to be
 						wholy our <roleName type="honorific">Saviours</roleName>
-						<date when-iso="1748-10-01">Oct the 1<hi rend="superscript">st</hi>
-							1748</date>. he had after many earnest and repeated <name
-							event="reception">Requests this favour granted him</name>
-						<add place="above">&amp; his Wife</add>to the great Joy of his heart, for it
-						proved an extraordinary Blessing to him, so that his Wife and all about him
-						saw a visible Change, he being so <name type="emotion">chearfull, lively and
-							happy</name>, as they never had seen him before. This continued with
-						him. He was a simple and up right heart, and when he heard any one reason
-						about <note type="catchword">things</note>
+						<date when="1748-10-01" cert="high">Oct the 1<hi rend="superscript">st</hi>
+							1748</date>. he had <lb/> after many <name emotion="earnest">earnest</name> and repeated <name event="reception">Requests this <lb/> favour granted him</name>
+						<add place="above">&amp; his Wife </add> to the <name><name emotion="great joy">great Joy</name> <name emotion="of his heart">of his
+<lb/>
+heart</name></name>, for it proved an <name emotion="extraordinary blessing">extraordinary Blessing</name> <lb/> to him, so
+						that his Wife and all about him <lb/> saw a visible Change, he being so
+<name emotion="cheerful">chearfull</name>, <name emotion="lively">lively</name> <lb/> and <name emotion="happy">happy</name>, as they never had seen
+
+						him before. <lb/> This continued with him. He was a simple and up- <lb/>
+						right heart, and when he heard any one reason about <note type="catchword">things</note>
 					</p>
 				</div>
 				<div type="page" n="2">
-					<head type="page">2</head>
-					<pb xml:id="Ful_3_09_TaylorCrispin-02.jpg" n="2"/>
-					<p> things, he used to say: What is this to us, the Lamb will know it best; and
-						again: Let us wait for our <roleName type="honorific">Saviours</roleName>
-						time, his time is allways the best. Soon after this his heart secretly
-						longed to partake of The  Corpse and Blood of Jesus in the <name
-							event="sacrament">Sacrament</name>, when  unexpectedly he was sent for,
-						and told by the <orgName>B<hi rend="superscript">rn</hi></orgName> that  our
-							d<hi rend="superscript">r</hi>
-						<roleName type="honorific">Saviour</roleName>; who knew his hunger would
-						soon  accomplish his desire, and should therefo be confirmd and blessed,
-						which made his heart very glad and more attached to the Wounds of Jesus.
-							<date when-iso="1749-03-24">March the 24 1749</date>. he partook of the
-							<name event="communion">holy Communion</name> for the 1<hi
-							rend="superscript">st</hi> time when his Soul and Body was so afected
-						and penetrated thro &amp; thro with the martyrd Corpse &amp; blood of
-							<persName type="deity">Jesus</persName>, as he could not express it with
-						Words. He was <name type="emotion">so happy in his heart</name> and felt
-						such Blessings that he scarce knew, what he eat of drank, or how he walkd or
-						workd for many days, and this sound he felt ringing in his ears perpetually:
-						My flesh is meat indeed, and my Blood is Drink indeed. And indeed it proved
-						itself to him real Life, and  Meat and Drink to his Heart. When his Wife was
-						concernd, that she did not partake with him of the  same Priviledge, he
-						behaved very tender towards her, and comforted her, saying: Have a little
-						Patience, for the Lambs time is the best.</p>
-					<p> Several years ago he had got a Surfeit by heating  himself with working over
-						hard, which for three years past, has at times troubled him much with a
-							<name health="disease">severe Costiveness and Pain in his Bowels</name>.
-							<date when-iso="1752-10-07" cert="low">About 10 weeks ago</date> he was
-						taken with it again but continued chearfull and quite resigned to our
-							<roleName type="honorific">Saviour</roleName>; <roleName en="brother"
-								>B<hi rend="superscript">r</hi></roleName>
-						<persName>Oxlee</persName> went to see him, and when he  <note
-							type="catchword">loo-</note>
+					<pb facs="https://s3.amazonaws.com/moravianlives.bucknell.edu/MAF/Ful_3_09_TaylorCrispin-02.jpg" n="2"/>
+					<p> things, he used to say: What is this to us, the Lamb will <lb/> know it best; and again:
+						Let us wait for our <roleName type="honorific">Savi- <lb/> ours</roleName>
+
+						time, his time is allways the best. Soon af- <lb/>ter this his heart
+						<name emotion="longing">secretly longed</name> to partake of The <lb/> Corpse and Blood of Jesus in the
+
+							<name event="sacrament">Sacrament</name>, when <lb/> unexpectedly he was
+						sent for, and told by the <orgName>B<hi rend="superscript">rn</hi></orgName>
+						that <lb/> our d<hi rend="superscript">r</hi>
+						<roleName type="honorific">Saviour</roleName>; who knew his <name emotion="hunger">hunger</name> would
+						soon  <lb/> accomplish his <name emotion="desire">desire</name>, and should therefo be confirmd <lb/> and
+						<name emotion="blessed">blessed</name>, which made his <name emotion="heart">heart</name> <name emotion="very glad">very glad</name> and <lb/> <name emotion="more attached">more attached</name> to the
+						Wounds of Jesus. <date when-iso="1749-03-24" when="1749-03-24" cert="high">March the 24 <lb/> 1749</date>.
+						he partook of the <name event="communion" when-iso="1749-03-24">holy Communion</name> for the 1<hi rend="superscript">st</hi>
+
+						<lb/> time when his Soul and Body was so afected and pe- <lb/> netrated thro
+						&amp; thro with the martyrd Corpse &amp; <lb/> blood of <persName cert="high">Jesus</persName>, as he could not express it with Words.
+						<lb/> He was <name emotion="so happy">so happy</name> <name emotion="in his heart">in his heart</name> and felt such <name emotion="blessings">Blessings</name>
+						<lb/> that he scarce knew, what he eat or drank, or how <lb/> he walkd or
+
+						workd for many days, and at this sound <lb/> he felt ringing in his ears
+						perpetually: My flesh <lb/> is meat indeed, and my Blood is Drink indeed.
+						<lb/> And indeed it proved itself to him real Life, and <lb/> Meat and Drink
+						to his Heart. When his Wife was <lb/> <name emotion="concerned">concernd</name>, that she did not partake
+
+						with him of the <lb/> same Priviledge, he behaved <name emotion="tenderness">very tender</name> towards <lb/>
+
+						her, and <name emotion="comforted">comforted</name> her, saying: Have a little Pa- <lb/> tience, for the
+						Lambs time is the best.</p>
+					<p> Several years ago he had got a Surfeit by heating <lb/> himself with working over hard,
+						which for three years <lb/> past, has at times <name emotion="troubled">troubled</name> him much with a <lb/>
+						<name health="disease">severe Costiveness and <name emotion="pain">Pain</name> in his Bowels</name>. <lb/>
+						<date when-iso="1752-10-07" cert="low" when="1752-10-07">About 10 weeks ago</date> he was
+						taken with it again <lb/> but continued <name emotion="cheerful">chearfull</name> and <name emotion="resignation">quite resigned</name> to our
+							<roleName type="honorific">Sa- <lb/> viour</roleName>;  <persName ref="#mlper000648" cert="high"><roleName>B<hi rend="superscript">r</hi> Oxlee</roleName></persName> went to see him, and when he 
+							<note type="catchword">loo-</note>
 					</p>
-					<p> looked at him, he found him so solid and grounded, and with such a
-						Sinnerlike Shame, as he never be fore had observed in him, So that coming
-						home he said  to his Wife: <persName ref="#mlper000562">Crispin
+
+					<p> looked at him, he found him so solid and groun- <lb/> ded, and with such a Sinnerlike <name emotion="shame">Shame</name>, as he never be- <lb/> fore had observed in him, So that coming home
+
+						he said <lb/> to his Wife: <persName ref="#mlper000562" cert="high">Crispin
 							Taylor</persName> ripens fast for Eternity.</p>
 					<p>
-						<date when-iso="1752-10-28">Oct The 28</date>. <name health="disease">He
-							grew worse and could work no more</name>. But soon after was obliged to
-						keep his Bed. <roleName en="brother">B<hi rend="superscript"
-							>r</hi></roleName>
-						<persName>Oxlee</persName> visited him, and asked him, whether he thought
-						he  should be soon well again? He answered softly (for he feard his Wife
-						would hear him and be grieved at it) but yet very chearfully, and said: No,
-						I shall go to my D<hi rend="superscript">r</hi>
+						<date when-iso="1752-10-28" when="1752-10-28" cert="high">Oct The 28</date>. <name health="disease">He
+							grew worse and could work no more</name>. <lb/> But soon after was
+						obliged to keep his Bed. <persName ref="#mlper000648"><roleName en="brother">B<hi rend="superscript">r</hi></roleName> Oxlee</persName>
+						<lb/> visited him, and asked him, whether he thought he <lb/> should be soon
+						well again? He answered softly (for <lb/> he <name emotion="feared">feard</name> his Wife would hear him
+						and be <name emotion="grieved">grieved</name> at it) <lb/> but yet <name emotion="very cheerfully">very chearfully</name>, and said: No, I shall
+						go to my</p><p><lb/> D<hi rend="superscript">r</hi>
 						<roleName type="honorific">Saviour</roleName>, and further being asked:
-						Whether he should like to go home, he answered O yes, with all my heart and
-						Soul; I would go this night, if it pleased him, but yet I&apos;ll wait till
-						he calls me, for his time is the  best. <roleName en="brother">B<hi
-								rend="superscript">r</hi></roleName>
-						<roleName en="sister"><add place="add">&amp; S<hi rend="superscript"
-								>r</hi></add></roleName>
-						<persName>Hauptmanns</persName> soon after came to Scholar to speak with the
-							<orgName>Communion</orgName> B<hi rend="superscript">rn</hi> &amp; S<hi
-							rend="superscript">rs</hi>: and calld on to see him, of which he was
-						exceeding glad and spoke of it with great Joy. Some days after <roleName
-							en="brother">B</roleName>
-						<persName>Oxlee</persName> came to see him again, and found him asleep, and
-						as he had had no Sleep for many nights, because of his <name
-							health="disease">extreme pain</name>, he would not have him disturbd.
-						But after he got wake his wife told him of it. O sayd he: Why didnt you  
-						wake me, for I love the <orgName>Brethren</orgName>
-						<add place="above">with my whole heart</add> and am very glad of their
-						Visits, especially him, who lives so near me, and I am allways better after
-						I have Seen any of them. <date when-iso="1752-11-12">Nov: the 12</date>
-						<roleName en="brother">B<hi rend="superscript">r</hi></roleName>
-						<persName>Oxlee</persName> visited  him again; and being asked to pray for
-						him, he  asked <persName ref="#mlper000562">Crispin</persName>, what his
-						heart desired most, at which he looked up, smiled and sayd: my hearts  <name
-							type="emotion">Desire is, to be with my d<hi rend="superscript">r</hi>
-							<roleName type="honorific">Saviour</roleName></name>. He spoke but low,
-						but one could understand and feel, what he said and according to his earnest
-						Request <note type="catchword">B<hi rend="superscript">r</hi></note>
+						Whether he should <lb/> <name emotion="like">like</name> to go home, he answered <name event="spiritual">O yes, with <name emotion="all my heart">all my heart</name>
+<lb/>
+and Soul; I would go this night, if it <name emotion="pleased">pleased</name> him, but
+<lb/>
+yet I'll wait till he calls me, for his time is the 
+<lb/>
+best.</name> <roleName en="brother">B<hi rend="superscript">r</hi></roleName>
+						<roleName en="sister"><add place="add">&amp; S<hi rend="superscript">r</hi></add></roleName>
+							Hauptmanns soon after came to Scholar to <lb/> speak with the
+							<orgName>Communion</orgName> B<hi rend="superscript">rn</hi> &amp; S<hi rend="superscript">rs</hi>: and calld on <lb/> to see him, of which he
+						was <name emotion="exceeding glad">exceeding glad</name> and <lb/> spoke of it with <name emotion="great joy">great Joy</name>. Some days after
+								<persName ref="#mlper000648"><roleName en="brother">Br</roleName><lb/> Oxlee</persName> came to see him again, and found him asleep,
+						<lb/> and as he had had no Sleep for many nights, <lb/> because of his <name health="disease">extreme <name emotion="pain">pain</name></name>, he would not <lb/> have him
+						disturbd. But after he got wake his <lb/> wife told him of it. O sayd he:
+
+						Why didnt you <lb/> wake me, <name emotion="love">for I love</name> the <orgName>Brethren</orgName>
+						<add place="above">with my whole heart</add>
+
+						<lb/> and am <name emotion="very glad">very glad</name> of their Visits, especially him, who lives <lb/> so
+						near me, and I am allways better after I have <lb/> Seen any of them. <date when-iso="1752-11-12" when="1752-11-12" cert="high">Nov: the 12</date>
+						<persName ref="#mlper000648"><roleName en="brother">B<hi rend="superscript">r</hi></roleName>
+							Oxlee</persName> visited <lb/> him again; and being asked to pray for
+						him, he <lb/> asked <persName ref="#mlper000562">Crispin</persName>, what
+						his <name emotion="heart">heart</name> <name emotion="desired">desired</name> most, at <lb/> which he looked up, <name emotion="smiled">smiled</name> and sayd: my
+						<name emotion="hearts">hearts</name> <lb/>  <name type="emotion"><name emotion="desire">Desire</name> is, to be with my d<hi rend="superscript">r</hi>
+							<roleName type="honorific">Saviour</roleName></name>. He spoke <lb/> but
+						low, but one could understand and feel, what <lb/> he said and according to
+						his <name emotion="earnest">earnest</name> Request <note type="catchword">B<hi rend="superscript">r</hi></note>
 					</p>
 				</div>
 				<div type="page" n="3">
-					<head type="page">3</head>
-					<pb xml:id="Ful_3_09_TaylorCrispin-04.jpg" n="3"/>
+					<pb facs="https://s3.amazonaws.com/moravianlives.bucknell.edu/MAF/Ful_3_09_TaylorCrispin-04.jpg" n="3"/>
 					<p>
-						<roleName en="brother">B<hi rend="superscript">r</hi></roleName>
-						<persName>Oxlee</persName> recommended him to the Lambs outstrechd arms and
-						bleeding heart with an inexpressible feeling. <date when-iso="1752-11-19"
-							>Nov: 19</date>
-						<name health="disease">he grew weaker and weaker</name> and being asked: If
-						he would not take any of the <name occupation="doctor">Do-ctors</name>
-						Medicines &amp; he hereupon answered quite loud, saying: It signifies
-						nothing, what I take, and you may give me, what ye will, I shall go
-						nevertheless go to my d<hi rend="superscript">r</hi>
+						<roleName en="brother">B<hi rend="superscript">r</hi></roleName> 
+							<persName ref="#mlper000648" cert="high" type="real">Oxlee</persName> recommended him to the Lambs outstrechd <lb/> arms and
+
+						bleeding heart with an <name emotion="inexpressible feeling">inexpressible
+<lb/>
+feeling</name>. <date when-iso="1752-11-19" when="1752-11-19" cert="high">Nov: 19</date>
+
+						<name health="disease">he grew weaker and weaker</name> and <lb/> being
+						asked: If he would not take any of the Do- <lb/>
+							ctors Medicines &amp; he hereupon answered quite <lb/> loud,
+						saying: It signifies nothing, what I take, <lb/> and you may give me, what
+						ye will, I shall go <lb/> nevertheless go to my d<hi rend="superscript">r</hi>
 						<roleName type="honorific">Sav<hi rend="superscript">r</hi></roleName>.
-							<roleName en="brother">B<hi rend="superscript">r</hi></roleName>
-						<persName>Hauptmann</persName> has been to see me, and he has give me some
-						thing, which is better, then all the <name occupation="doctor"
-							>Doctors</name> Stuff in the World, meaning the <name event="sacrament"
-							>Sacrament</name> of the Corpse and Blood of our <roleName
-							type="honorific">Savr</roleName>. After that his pains in creased more
-						and more, so that he could talk no more, but yet was sensible at the time.
-							<date when-iso="1752-11-29">Nov. the 29</date>. notwithstanding his
-						being exceeding weak, yet his Disorder, was quite changd from a <name
-							health="recovered">Severe Costiveness to a real Purging</name>, so that
-						there seemd to be some hape of his Recovery. They begd much that <roleName
-							en="brother">B<hi rend="superscript">r</hi></roleName>
-						<persName>Hurlock</persName> might come and see him, which he soon after
-						did, but found him in such Cir cumstances, that he rather despaired of his
-						Recovery, But he and the rest of the family were much pleased, that he came
-						and saw him. <roleName en="brother">B<hi rend="superscript"
-							>r</hi></roleName>
-						<persName>Oxlee</persName>, who came to see him, asked, how he found
+								<persName ref="#mlper000689"><roleName en="brother">B<hi rend="superscript">r</hi></roleName> Hauptmann</persName>
+						<lb/> has been to see me, and he has give me some- <lb/>  thing, which is
+						better, then all the Doctors Stuff <lb/> in
+						the World, meaning the <name event="sacrament">Sacrament</name> of the
+						Corpse <lb/> and Blood of our <roleName type="honorific">Savr</roleName>.
+						After that his <name emotion="pains">pains</name> in- <lb/> creased more and more, so that he could talk
+						no <lb/> more, but yet was sensible at the time. <date when-iso="1752-11-29" when="1752-11-29" cert="high">Nov. <lb/> the 29</date>. notwithstanding his being exceeding weak,
+						<lb/> yet his Disorder, was quite changd from a <name health="recovered">Severe <lb/> Costiveness to a real Purging</name>, so that there seemd
+						<lb/> to be some <name emotion="hope">hope</name> of his Recovery. They begd much <lb/> that <roleName en="brother">B<hi rend="superscript">r</hi></roleName>
+						<persName ref="#mlper000691" cert="high" type="real">Hurlock</persName> might come and see him, which <lb/>
+						he soon after did, but found him in such Cir- <lb/> cumstances, that he
+						rather <name emotion="despaired">despaired</name> of his Re-<lb/> covery, But he and the rest of the family
+						were <lb/> <name emotion="much pleased">much pleased</name>, that he came and saw him. <roleName en="brother">B<hi rend="superscript">r</hi></roleName>
+							<lb/> <persName ref="#mlper000648" cert="high" type="real">Oxlee</persName>, who came to see him, asked, how he found <lb/>
 						himself, he said: my <roleName en="brother">Brother</roleName>, perhaps I
-						shall not go yet, alltho I should like it, if my dear Lamb would call me
-						this night, for I sometimes think it long, before he fetches me, but he
-						knows best. He was very resignd and notwithstanding his <name
-							health="disease">violent pain</name>, he sufferd, yet he bore it
-						patiently and Scarce ever complaind. <date when-iso="1752-12-12">Dec.
-							12</date>, <roleName en="brother">B<hi rend="superscript"
-							>r</hi></roleName>
-						<persName>Oxlee</persName> visited him again and found him exceeding
-						chearfull. He laid hold of his hand, and <note type="catchword">pulld</note>
+						shall <lb/> not go yet, alltho I should <name emotion="like">like</name> it, if my dear <lb/> Lamb would
+						call me this night, for I sometimes <lb/> think it long, before he fetches
+						me, but he knows <lb/> best. He was very resignd and notwithstanding <lb/>
+						his <name health="disease">violent <name emotion="pain">pain</name></name>, he <name emotion="suffered">sufferd</name>, yet he bore it
+						pa- <lb/> tiently and Scarce ever complaind. <date when-iso="1752-12-12" when="1752-12-12" cert="high">Dec. 12</date>, <roleName en="brother">B<hi rend="superscript">r</hi></roleName>
+						<lb/>
+						Oxlee visited him again and found him
+						<name emotion="exceeding cheerful">excee-
+<lb/>
+ding chearfull</name>. He laid hold of his hand, and <note type="catchword">pulld</note>
 					</p>
-					<p> pulld him down to him to kiss him. He told him that he took it very kind
-						that he came so often to see him and thankd him many times for it. He was
-						then a little easier. He was told that <date when-iso="1752-12-17"
-							cert="medium">next Sunday</date> would be the <name event="communion"
-							>Communion</name> at <placeName>Grace Hall</placeName>, of which he was
-						very much rejoiced and glad. <roleName en="brother">B<hi rend="superscript"
-								>r</hi></roleName>
-						<persName>Hauptmann</persName> came to see him few days after, and spoke
-						with him about the insuing feast of the Corpse and Blood of our Husband. He
-						found him very chearfull &amp; happy and very hungry after the Participation
-						of the blessed <name event="communion">Communion</name> with the
-							<orgName>Congregation</orgName>, The <date when-iso="1752-12-15">15.
-							Dec.</date> being Fryday at night he alterd very mich for the worse in
-						an instant. His Wife perceiving it, asked him, if she Should call his
-						Children; he said: Yes. When they came in, <name health="disease">he was in
-							great pain</name>, notwithstanding that he calld them to him, and began
-						to speak tenderly to them, as well as his painfull Body and faulte ring
-						tongue would admit of. He prayd them and even charged them each of them with
-						dying Words and weeping Eyes, that they should give themselves and cleave to
-						the crucified <roleName type="honorific">Saviour</roleName>, and then
-						reached out his trembling hand to bless and assure them, that if they should
-						cleave to their <roleName type="honorific">Saviour</roleName> he would bless
-						them and bring them through, and You Betty with all your Children, meaning
-						his Daughter, who is married. His poor weeping Wife, feeling &amp; seeing
-						that he was going, said: Will you go &amp; leave me behind? O says he,
-						cleave to the <roleName type="honorific">Saviour</roleName>, cleave to the
-							<roleName type="honorific">Saviour</roleName>, and I will Soon See you
-						again. What, when I come to him? Ay, ay, cleave to the <roleName
-							type="honorific">Saviour</roleName> and he will bring You thro. He gave
-						her his Hand to confirm it with <note type="superscript">His</note>
+					<p> pulld him down to him to <name emotion="kiss">kiss</name> him. He told him <lb/> that he took it very kind that he came
+						so often <lb/> to see him and <name emotion="thanked">thankd</name> him many times for it. <lb/> He was
+						then a little easier. He was told that <lb/>
+						<date when-iso="1752-12-17" cert="medium" when="1752-12-17">next Sunday</date> would be the
+
+							<name event="communion">Communion</name> at <placeName cert="high">Grace- <lb/> Hall</placeName>, of which he was <name emotion="rejoicing">very much rejoiced</name> and
+
+						<name emotion="glad">glad</name>. <lb/>
+						<roleName en="brother">B<hi rend="superscript">r</hi></roleName>
+							<persName ref="#mlper000689" cert="high" type="real">Hauptmann</persName> came to see him few days after, and <lb/> spoke
+						with him about the insuing feast of the Corpse <lb/> and Blood of our
+						Husband. He found him <name emotion="very cheerful">very
+<lb/>
+chearfull</name> &amp; <name emotion="happy">happy</name> and <name emotion="very hungry">very hungry</name> after
+						the Par- <lb/> ticipation of the <name emotion="blessed">blessed</name> <name event="communion">Com- <lb/>
+							munion</name> with the <orgName>Congregation</orgName>, The <date when-iso="1752-12-15" when="1752-12-15" cert="high">15. Dec.</date> being Fryday at night <lb/> he
+						alterd very much for the worse in an instant. <lb/> His Wife perceiving it,
+						asked him, if she Should <lb/> call his Children; he said: Yes. When they
+
+						came <lb/> in, <name health="disease">he was in <name emotion="great pain">great pain</name></name>,
+						notwithstanding that he <lb/> calld them to him, and began to speak <name emotion="tenderly">tenderly</name>
+						<lb/> to them, as well as his <name emotion="painful">painfull</name> Body and faulte- <lb/> ring tongue
+
+						would admit of. He prayd them and <lb/> even charged them each of them with
+						dying Words <lb/> and <name emotion="weeping">weeping</name> Eyes, that they should give themselves <lb/>
+						and cleave to the crucified <roleName type="honorific">Saviour</roleName>,
+						and then rea- <lb/> ched out his <name emotion="trembling">trembling</name> hand to <name emotion="bless">bless</name> and assure <lb/>
+						them, that if they should cleave to their <roleName type="honorific">Saviour</roleName>
+						<lb/> he would <name emotion="bless">bless</name> them and bring them through, and <lb/> You Betty with
+						all your Children, meaning his <lb/> Daughter, who is married. His poor
+						<name emotion="weeping">weeping</name> <lb/> Wife, feeling &amp; seeing that he was going, said: <lb/> Will
+						you go &amp; leave me behind? O says he, cleave to <lb/> the <roleName type="honorific">Saviour</roleName>, cleave to the <roleName type="honorific">Saviour</roleName>, and I will Soon <lb/> See you
+						again. What, when I come to him? Ay, ay, <lb/> cleave to the <roleName type="honorific">Saviour</roleName> and he will bring You thro. <lb/> He
+						gave her his Hand to confirm it with <note type="superscript">His</note>
 					</p>
 				</div>
 				<div type="page" n="4">
-					<head type="page">4</head>
-					<pb xml:id="Ful_3_09_TaylorCrispin-07.jpg" n="4"/>
+					<pb facs="https://s3.amazonaws.com/moravianlives.bucknell.edu/MAF/Ful_3_09_TaylorCrispin-06.jpg" n="4"/>
 					<p>
+
 						<name health="disease">His Pains growing stronger</name>, he Seemd as if he
-						would Ture, to stretch himself. which was into the ever lasting Arms and
-						pierced heart of <persName type="deity">Jesus</persName>, where he now rests
-						Sweetly and safely, secure and free from Sin and earthly Misery.</p>
-					<p> F and askd his Wife to assist him, which she willingly did: He afterwards
-						seemd as if he would go to Sleep His Wife not hearing him breath took, a
-						Candle to look at him, and found, that he was really gone without the least
-						Sighs or Struggle, looking exceeding sweet and Smiling, and thus he happily
-						departed </p>
+						would <lb/> Turn, to stretch himself [insertion] which was into the ever- <lb/> lasting
+						Arms and pierced heart of <persName cert="high">Jesus</persName>, where
+						<lb/> he now rests Sweetly and safely, secure and free <lb/> from Sin and
+						earthly Misery.</p>
+					<p>[insertion] and askd his Wife to assist him, which she willingly <lb/> did: He afterwards seemd as if
+
+						he would go to Sleep <lb/> His Wife not hearing him breath took, a Candle to
+						<lb/> look at him, and found, that he was really gone <lb/> without the
+						least <name emotion="sighs">Sighs</name> or Struggle, looking <name emotion="exceeding sweet">ex-
+<lb/>
+ceeding sweet</name> and <name emotion="smiling">Smiling</name>, and
+						thus he <name emotion="happily">happily</name> <lb/> departed </p>
 				</div>
 			</div>
 		</body>

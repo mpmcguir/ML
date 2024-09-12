@@ -1,20 +1,16 @@
-<?xml-model href="../../Projects/TEI_Memoirs/out/MoravianMemoirs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../Projects/TEI_Memoirs/out/MoravianMemoirs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/moravianlives/ML/master/CodeScripts/out/MoravianMemoirs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/moravianlives/ML/master/CodeScripts/CSS/moravian_style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>James Charlesworth: Memoir</title>
 				<funder>The Moravian Lives Project</funder>
-				<principal><persName xml:id="kfaull">Katherine Mary Faull</persName>, Principal
-					Investigator <orgName>Bucknell Uniˇversity</orgName>
+				<principal><persName xml:id="kfaull">Katherine Mary Faull</persName>, Principal Investigator <orgName>Bucknell Uniˇversity</orgName>
 					<address>
 						<addrLine>Lewisburg, Pennsylvania</addrLine>
 					</address>
 					<email>faull@bucknell.edu</email>
 				</principal>
-				<principal><persName>Christer Ahlberger</persName>, Principal Investigator,
-					2015-2018 <orgName>University of Gothenburg</orgName>
+				<principal><persName>Christer Ahlberger</persName>, Principal Investigator, 2015-2018 <orgName>University of Gothenburg</orgName>
 					<address>
 						<addrLine>Gothenburg, Sweden</addrLine>
 					</address>
@@ -84,8 +80,7 @@
 			<publicationStmt>
 				<distributor>The Moravian Lives Project</distributor>
 				<availability>
-					<licence>Creative Commons Attribution-NonCommercial-ShareAlike 4.0
-						International</licence>
+					<licence>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</licence>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
@@ -93,28 +88,3922 @@
 					<msIdentifier>
 						<repository ref="#mlpla000003">Moravian Archives, Fulneck</repository>
 						<msName type="memoir" ana="Ful_3_02_CharlesworthJames">James Charlesworth</msName>
-						<msName
-							facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-01.jpg"/>
-						<msName
-							facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-02.jpg"/>
-						<msName
-							facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-03.jpg"/>
-						<msName
-							facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-04.jpg"/>
-						<msName
-							facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-05.jpg"/>
-						<msName
-							facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-06.jpg"/>
-						<msName
-							facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-07.jpg"/>
-						<msName
-							facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-09.jpg"
-						/>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-01.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-02.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-03.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-04.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-05.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-06.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-07.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-09.jpg"/>
 					</msIdentifier>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
-		<profileDesc>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750556",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.556Z",
+	"dcterms:modified": "2020-07-28T14:57:50.556Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750556#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750556#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[6]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "#mlpla000072",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750557",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.557Z",
+	"dcterms:modified": "2020-07-28T14:57:50.557Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750557#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750557#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "#mlpla000003",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750559",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.559Z",
+	"dcterms:modified": "2020-07-28T14:57:50.559Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750559#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750559#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "#mlpla000179",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750560",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.560Z",
+	"dcterms:modified": "2020-07-28T14:57:50.560Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750560#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750560#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[5]/p[3]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "#mlpla000057",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?person_annotation_20200728105750561",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.561Z",
+	"dcterms:modified": "2020-07-28T14:57:50.561Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?person_annotation_20200728105750561#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?person_annotation_20200728105750561#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://moravianlives.bucknell.edu/data/personography.html#mlper000544",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?person_annotation_20200728105750561",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.561Z",
+	"dcterms:modified": "2020-07-28T14:57:50.561Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?person_annotation_20200728105750561#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?person_annotation_20200728105750561#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://moravianlives.bucknell.edu/data/personography.html#mlper000544",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750562",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.562Z",
+	"dcterms:modified": "2020-07-28T14:57:50.562Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750562#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750562#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/hi[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750562",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.562Z",
+	"dcterms:modified": "2020-07-28T14:57:50.562Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750562#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750562#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750562",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.562Z",
+	"dcterms:modified": "2020-07-28T14:57:50.562Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750562#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750562#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[2]/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750563",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.563Z",
+	"dcterms:modified": "2020-07-28T14:57:50.563Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750563#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750563#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[3]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750563",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.563Z",
+	"dcterms:modified": "2020-07-28T14:57:50.563Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750563#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750563#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[3]/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750563",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.563Z",
+	"dcterms:modified": "2020-07-28T14:57:50.563Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750563#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750563#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[3]/date[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750564",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.564Z",
+	"dcterms:modified": "2020-07-28T14:57:50.564Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750564#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750564#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[3]/date[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750564",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.564Z",
+	"dcterms:modified": "2020-07-28T14:57:50.564Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750564#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750564#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[3]/date[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750564",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.564Z",
+	"dcterms:modified": "2020-07-28T14:57:50.564Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750564#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750564#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[3]/date[6]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750565",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.565Z",
+	"dcterms:modified": "2020-07-28T14:57:50.565Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750565#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750565#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750565",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.565Z",
+	"dcterms:modified": "2020-07-28T14:57:50.565Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750565#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750565#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750565",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.565Z",
+	"dcterms:modified": "2020-07-28T14:57:50.565Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750565#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750565#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p/date[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750566",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.566Z",
+	"dcterms:modified": "2020-07-28T14:57:50.566Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750566#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750566#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[3]/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750566",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.566Z",
+	"dcterms:modified": "2020-07-28T14:57:50.566Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750566#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750566#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[3]/p[2]/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750566",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.566Z",
+	"dcterms:modified": "2020-07-28T14:57:50.566Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750566#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750566#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750567",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.567Z",
+	"dcterms:modified": "2020-07-28T14:57:50.567Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750567#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750567#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[3]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750567",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.567Z",
+	"dcterms:modified": "2020-07-28T14:57:50.567Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750567#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750567#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[4]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750567",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.567Z",
+	"dcterms:modified": "2020-07-28T14:57:50.567Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750567#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750567#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[6]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750568",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.568Z",
+	"dcterms:modified": "2020-07-28T14:57:50.568Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750568#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750568#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[5]/p/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750568",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.568Z",
+	"dcterms:modified": "2020-07-28T14:57:50.568Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750568#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750568#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[5]/p/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750568",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.568Z",
+	"dcterms:modified": "2020-07-28T14:57:50.568Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750568#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750568#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[5]/p/date[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750568",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.568Z",
+	"dcterms:modified": "2020-07-28T14:57:50.568Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750568#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750568#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[5]/p[3]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750569",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.569Z",
+	"dcterms:modified": "2020-07-28T14:57:50.569Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750569#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750569#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[5]/p[3]/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750569",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.569Z",
+	"dcterms:modified": "2020-07-28T14:57:50.569Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750569#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750569#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[7]/p/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1770-07-29"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?rs_annotation_20200728105750569",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.569Z",
+	"dcterms:modified": "2020-07-28T14:57:50.569Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?rs_annotation_20200728105750569#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?rs_annotation_20200728105750569#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Occupation",
+		"@id": "#mlocc000078",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750570",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.570Z",
+	"dcterms:modified": "2020-07-28T14:57:50.570Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750570#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750570#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[3]/rs/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q163",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750570",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.570Z",
+	"dcterms:modified": "2020-07-28T14:57:50.570Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750570#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750570#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[5]/p[3]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "#mlpla000057",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750570",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.570Z",
+	"dcterms:modified": "2020-07-28T14:57:50.570Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750570#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750570#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[4]/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1755"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750571",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.571Z",
+	"dcterms:modified": "2020-07-28T14:57:50.571Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750571#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750571#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[4]/add/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1754"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750571",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.571Z",
+	"dcterms:modified": "2020-07-28T14:57:50.571Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750571#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750571#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[5]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1756-06"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750571",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.571Z",
+	"dcterms:modified": "2020-07-28T14:57:50.571Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750571#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750571#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[5]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "mlpla000026",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750572",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.572Z",
+	"dcterms:modified": "2020-07-28T14:57:50.572Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750572#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750572#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[5]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q163",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750572",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.572Z",
+	"dcterms:modified": "2020-07-28T14:57:50.572Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750572#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750572#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[5]/placeName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Ockbrook",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750572",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.572Z",
+	"dcterms:modified": "2020-07-28T14:57:50.572Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750572#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20200728105750572#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[5]/placeName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "mlpla000035",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?rs_annotation_20200728105750573",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.573Z",
+	"dcterms:modified": "2020-07-28T14:57:50.573Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?rs_annotation_20200728105750573#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?rs_annotation_20200728105750573#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[2]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Occupation",
+		"@id": "#mlocc000075",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?rs_annotation_20200728105750573",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.573Z",
+	"dcterms:modified": "2020-07-28T14:57:50.573Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?rs_annotation_20200728105750573#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?rs_annotation_20200728105750573#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[3]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Occupation",
+		"@id": "#mlocc000074",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?rs_annotation_20200728105750573",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.573Z",
+	"dcterms:modified": "2020-07-28T14:57:50.573Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?rs_annotation_20200728105750573#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?rs_annotation_20200728105750573#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[5]/p/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Occupation",
+		"@id": "#mlocc000076",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750574",
+	"type": "oa:Annotation",
+	"dcterms:created": "2020-07-28T14:57:50.574Z",
+	"dcterms:modified": "2020-07-28T14:57:50.574Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/schaumju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Justin Schaumberger",
+		"foaf:nick": "schaumju"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750574#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?date_annotation_20200728105750574#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[6]/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1770-07-16"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20230427194428246",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-27T23:44:28.246Z",
+	"dcterms:modified": "2023-04-27T23:44:28.246Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/HarrisonHQuinn",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Harrison Quinn"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20230427194428246#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20230427194428246#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[2]/name/placeName/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q3773203",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20230427194440660",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-27T23:44:40.660Z",
+	"dcterms:modified": "2023-04-27T23:44:40.660Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/HarrisonHQuinn",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Harrison Quinn"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20230427194440660#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20230427194440660#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[2]/name/placeName/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q865872",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20230427194724072",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-27T23:47:24.072Z",
+	"dcterms:modified": "2023-04-27T23:47:24.072Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/HarrisonHQuinn",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Harrison Quinn"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20230427194724072#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20230427194724072#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[2]/name/placeName/placeName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q163",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20230427194742569",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-27T23:47:42.569Z",
+	"dcterms:modified": "2023-04-27T23:47:42.569Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/HarrisonHQuinn",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Harrison Quinn"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20230427194742569#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20230427194742569#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[3]/name[5]/placeName/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q163",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20230427194759580",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-27T23:47:59.580Z",
+	"dcterms:modified": "2023-04-27T23:47:59.580Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/HarrisonHQuinn",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Harrison Quinn"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20230427194759580#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/HarrisonHQuinn/ML/master/Fulneck/SemanticXML/charlesworth_james.xml?place_annotation_20230427194759580#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p/name/placeName/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q2210392",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><profileDesc>
 			<particDesc>
 				<person role="subject">
 					<persName ref="#mlper000544">James Charlesworth</persName>
@@ -134,350 +4023,300 @@
 			<div type="memoir">
 				<head>James Charlesworth</head>
 				<div type="page" n="1">
-					<head type="page">1</head>
-					<pb n="1"
-						facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-01.jpg"/>
-					<p> Personalia of our late d<hi rend="superscript">r</hi>
-						<roleName type="honorific">B<hi rend="superscript">r</hi></roleName>
-						<persName ref="#mlper000544">James Charlsworth</persName> who enter&apos;d
-						into the Joy of his <roleName type="honorific">Lord</roleName>
-						<date type="death" when-iso="1770-07-30">July 30th 1770</date>. Our late dr
-							<roleName type="honorific">Br.</roleName>
-						<persName ref="#mlper000544">James Charlesworth</persName> has left the
-						following short account of some of the most remarkable particular
-						Circumstances of his Life till to the year <date when-iso="1753"
-						>1753</date>.</p>
-					<p> I was born at <placeName>Little Gummersal</placeName> in the parish of
-							<placeName ref="#mlpla000030">Birstal</placeName> in the County of
-							<placeName>York</placeName> on the <date type="birth"
-							when-iso="1721-12-16">16<hi rend="superscript">th</hi> Dec<hi
-								rend="superscript">r</hi> 1721</date>. And was Educated by my
-						Parents in the principles of the <orgName religion="Anglican">Church of
-							England</orgName>, in a strict &amp; careful manner, &amp;
-						preserv&apos;d from the Seductions w<hi rend="superscript">ch</hi> many <hi
-							rend="underline">people</hi>
-						<add place="above">youths</add> are expos&apos;d to. When at the Age of 12
-						to 14 Years I began to keep company &amp; frequent some of the places of
-						Diversions in the World; I never <hi rend="superscript">ed</hi> do it with
-						the same ease &amp; Satisfaction w<hi rend="superscript">ch</hi> I saw other
-						people did, but always felt Remorse of Conscience, &amp; when I was alone
-						often pray&apos;d to our <roleName type="honorific">Sav<hi rend="superscript">r</hi></roleName> to have
-						Mercy upon me &amp; keep &amp; preserve me from all Sin. At ab<hi
-							rend="superscript">t</hi> the <date when-iso="1736" cert="medium">age of
-							15</date>, I left off all Pleasures &amp; became acquainted with a small
-							<orgName>Company of Mysticks</orgName> to whom I join&apos;d my Self,
-						Read their Books &amp; became very sober &amp; Religious, but found my poor
-						heart wanted something w<hi rend="superscript">ch</hi> I had not.</p>
-					<p> When I was about <date when-iso="1739">7 years of age (in the Year
-							1739)</date> I become <roleName type="honorific">acquainted</roleName>
-						with the B<hi rend="superscript">rn</hi> at their first coming to <placeName
-							ref="#mlpla000084">Yorkshire</placeName>, &amp; my dear <roleName
-							type="honorific">Sav<hi rend="superscript">r</hi></roleName> made me
-						sensible of my lost state &amp; condition, &amp; the Misery &amp; Corruption
-						of my Nature, &amp; that it was his Blood alone w<hi rend="superscript"
-							>ch</hi> in make me happy, &amp; as such a poor Sinner. I fled for
-						Refuge to his wounds &amp; found peace thro&apos; the Virtue &amp; power of
-						his merits &amp; Death. In the year <date when-iso="1740">1740</date> I went
-						to <placeName ref="#mlpla000054">Lond<hi rend="superscript"
-							>n</hi></placeName>. I staid some time w<hi rend="superscript">th</hi>
-						the B<hi rend="superscript:true;">rn</hi> there, &amp; return&apos;d again
-						to <placeName ref="#mlpla000084">Yorkshire</placeName> the <date
-							when-iso="1740">same year</date>. I was <name event="reception"
-							>Reced</name> into the Cong<hi rend="superscript">r</hi>
-						<date when-iso="1742-12-08">Decr: 8<hi rend="superscript">th</hi>.
-							1742</date> soon after the Cong<hi rend="superscript">n</hi> was
-						establishd here, &amp; was <name event="communion">admitted</name> to be a
-						Partaker of the Body &amp; Blood of my Crucified <roleName type="honorific"
-								>Sav<hi rend="superscript">r</hi></roleName> w<hi rend="superscript"
-							>th</hi> the Cong<hi rend="superscript">n</hi>
-						<date when-iso="1743-07-06">July 6<hi rend="superscript">th</hi>
-						1743</date>. I was <name event="confirmationn">Confirmd</name> as a witness
-						of the sufferings &amp; Atonem<hi rend="superscript">t</hi> of the Lamb of
-							<roleName type="honorific">God</roleName> by <roleName en="brother">B<hi
-								rend="superscript">r</hi></roleName>
-						<persName>Spangenberg</persName> the <date when-iso="1743-12-21">21<hi
-								rend="superscript">st</hi> Dec the same year</date> before w<hi
-							rend="superscript">ch</hi> had left my Busyness &amp; Relations &amp;
-						went to Live at the </p>
+					<pb n="1" facs="https://s3.amazonaws.com/moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-01.jpg"/>
+					<p> Personalia of our late d<hi rend="superscript">r</hi> <roleName type="honorific">B<hi rend="superscript">r</hi></roleName>
+						<persName cert="high" ref="http://moravianlives.bucknell.edu/data/personography.html#mlper000544">James Charlsworth</persName>
+						<lb/> <hi rend="underline">who <name event="death" when-iso="1770-07-30">enter'd into the <name emotion="joy">Joy</name> of his <roleName type="honorific">Lord</roleName></name> <date type="death" when-iso="1770-07-30">July 30th 1770</date>
+.</hi> <lb/> Our
+						late dr <roleName type="honorific">Br.</roleName>
+						<persName ref="http://moravianlives.bucknell.edu/data/personography.html#mlper000544" key="James Charlesworth" cert="high" type="http://sparql.cwrc.ca/ontologies/cwrc#PersonalName">James
+							Charlesworth</persName> has left the following short account <lb/> of
+						some of the most remarkable particular Circumstances of his Life till <lb/>
+						to the year <date when-iso="1753">1753</date>.</p>
+					<p> <name event="birth" when-iso="1721-12-16">I was born at <placeName ref="#mlpla000041" cert="high">Little <placeName key="Gomersal" ref="http://www.wikidata.org/entity/Q3773203">Gummersal</placeName> in the parish of <placeName key="Birstall" ref="http://www.wikidata.org/entity/Q865872">Birstal</placeName> in the
+<lb/>
+County of <placeName key="Yorkshire" ref="http://www.wikidata.org/entity/Q163">York</placeName></placeName></name> on the <date type="birth" when-iso="1721-12-16">16th Dec<hi rend="superscript">r</hi> 1721</date>. And was Educated by my
+						Parents in <lb/> the principles of the <orgName religion="Anglican">Church
+							of England</orgName>, in a strict &amp; careful manner, &amp; preserv'd
+						<lb/> from the Seductions w<hi rend="superscript">ch</hi> many <hi rend="underline">people</hi>
+						<add place="above">youths</add> are expos'd to. When at the Age of <lb/> 12
+						to 14 Years I began to keep company &amp; frequent some of the places <lb/>
+						of Diversions in the World; I never <hi rend="superscript">ed</hi> do it
+						with the same <name emotion="ease and satisfaction">ease &amp;
+<lb/>
+Satisfaction</name> w<hi rend="superscript">ch</hi>
+						I saw other people did, but always felt <name emotion="remorse">Remorse</name> of
+<lb/>
+Conscience, &amp;
+						when I was alone often pray'd to our <roleName type="honorific">Sav<hi rend="superscript">r</hi></roleName> to have <name emotion="mercy">Mercy</name> <lb/> upon me
+						&amp; keep &amp; preserve me from all Sin. At ab<hi rend="superscript">t</hi> the <date when-iso="1736" cert="medium">age of 15</date>, I
+						<lb/> left off all <name emotion="pleasures">Pleasures</name> &amp; became acquainted with a small
+							<orgName>Company of Mysticks</orgName>
+						<lb/> to whom I join'd my Self, Read their Books &amp; became very sober &amp;
+<lb/>
+Religious, but found my poor heart <name emotion="wanted">wanted</name> something w<hi rend="superscript">ch</hi> I had not.</p>
+					<p> When I was about <date when-iso="1739">7 years of age (in the Year 1739)</date> I become <lb/>
+						<roleName type="honorific">acquainted</roleName> with the <orgName religion="Moravian Church">B<hi rend="superscript">rn</hi> </orgName> at their first coming to <rs ref="#mlpla000084" cert="high"><placeName ref="http://www.wikidata.org/entity/Q163" key="Yorkshire" cert="high">Yorkshire</placeName></rs>, &amp; my dear <lb/>
+						<roleName type="honorific">Sav<hi rend="superscript">r</hi></roleName> made
+						me sensible of my lost state &amp; condition, &amp; the <name emotion="misery">Misery</name> &amp; Corruption
+<lb/>
+of my Nature, &amp; that it was his Blood alone w<hi rend="superscript">ch</hi> in make me <name emotion="happy">happy</name>, <lb/> &amp; as such a poor
+						Sinner. I fled for Refuge to his wounds &amp; found <name emotion="peace">peace</name> <lb/> thro' the
+						Virtue &amp; power of his merits &amp; Death. In the year <date when-iso="1740">1740</date> <name event="arrival" when-iso="1740">I went
+<lb/>
+to <placeName cert="high" ref="#mlpla000054" type="arrival">Lond<hi rend="superscript">n</hi></placeName></name>. I staid some time w<hi rend="superscript">th</hi> the <orgName religion="Moravian Church">B<hi rend="superscript">rn</hi> </orgName> there, &amp; <name event="arrival" when-iso="1740">return'd again to
+<lb/>
+<placeName cert="high" ref="#mlpla000054" type="arrival"><placeName key="Yorkshire" ref="http://www.wikidata.org/entity/Q163">Yorkshire</placeName></placeName></name> the <date when-iso="1740">same year</date>. I was <name event="reception" when-iso="1742-12-08">Reced into the Cong<hi rend="superscript">r</hi> </name> <date when-iso="1742-12-08">Decr: 8<hi rend="superscript">th</hi>.
+							1742</date>
+						<lb/> soon after the Cong<hi rend="superscript">n</hi> was establishd here,
+						&amp; was <name event="communion" when-iso="1743-07-06">admitted to be a
+<lb/>
+Partaker of the Body &amp; Blood of my Crucified <roleName type="honorific">Sav<hi rend="superscript">r</hi></roleName> </name> w<hi rend="superscript">th</hi>
+						the Cong<hi rend="superscript">n</hi>
+						<date when-iso="1743-07-06">July <lb/> 6<hi rend="superscript">th</hi>
+							1743</date>. <name event="confirmation" when-iso="1742-12-21">I was Confirmd as a witness of the <name emotion="sufferings">sufferings</name> &amp; Atonem<hi rend="superscript">t</hi>
+<lb/>
+of the <roleName type="honorific">Lamb</roleName> of <persName type="real" cert="high">God</persName> by <persName ref="#mlper000602" cert="high" type="real"><roleName type="honorific">B<hi rend="superscript">r</hi></roleName> Spangenberg</persName></name> the <date when-iso="1743-12-21">21<hi rend="superscript">st</hi> Dec the same year</date>
+						<lb/> before w<hi rend="superscript">ch</hi> had left my Busyness &amp;
+						Relations &amp; went to Live at the </p>
 				</div>
 				<div type="page" n="2">
-					<head type="page">2</head>
-					<pb n="2"
-						facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-02.jpg"/>
-					<p> first <orgName en="œconomy">S. B<hi rend="superscript">rns</hi>
-							Oeconomy</orgName> at <placeName>Holbeck</placeName> where I continued
-						till the <date when-iso="1744-07-20">20 July 1744</date>, when I was
-						bless&apos;d by imposition of hands to the <name occupation="officer">Office
-							of Vorsteher</name> of the S. B<hi rend="superscript">rn</hi>, after wch
-						I was mostly <name office="visitor">employd in Preaching</name> &amp;
-						visiting the young Men in the different Societies, which I continued till
-							<date when-iso="1748">1748</date> about w<hi rend="superscript">ch</hi>
-						time I was obliged to engage so deeply in the <name
-							occupation="manufacturer">Manufactory</name> and other outward affairs
-						that I declin&apos;d preaching, &amp; for sev<hi rend="superscript">l
-						</hi>years together went thro&apos; <name type="emotion">a Scene of Distress
-							in my own Mind</name> with the External affairs in w<hi
-							rend="superscript">ch</hi> I was engagd, however I continued <hi
-							rend="strikethrough">therein</hi> to assist therein, &amp; went several
-						times to <placeName>Holland</placeName> on that Acc<hi rend="superscript"
-							>t</hi> &amp; bore a part in most of the Transactions till the year
-							<date when-iso="1753">1753</date>, when Ruin seem&apos;d to threaten our
-						whole Constitution, if our <hi rend="superscript">dr</hi>
-						<roleName type="honorific">Sav<hi rend="superscript">r</hi></roleName> had not
-						miraculously interpos&apos;d &amp; Inspird the d<hi rend="superscript"
-							>r</hi> Disciple w<hi rend="superscript">th</hi> Courage &amp;
-						Generosity more than Human, whereby he was enabled to satisfy all the
-						Creditors, being willing to take all the Debt upon himself w<hi
-							rend="superscript">ch</hi> had been Contracted without his knowledge
-						&amp; Consent. &apos;Tis true I endea- vour&apos;d to hinder his engaging
-						himself for such vast Sums of Money w<hi rend="superscript">ch</hi> He had
-						no visible fund to discharge withal, &amp; wo&apos;d rather have
-						suffer&apos;d any hardships myself, than be the occasion of Involving his
-						dr. Person, but he was Resolv&apos;d to do it &amp; did it I dout not af the
-						Command of his Lord &amp; Master, who <hi rend="strikethrough">has</hi>
-						indeed has miraculously help&apos;d him thro&apos; to the wonder &amp;
-						astonishmt of all men both Friend &amp; Enemies, &amp; wch certainly among
-						the Surprising Transactions of his Life in the Kingdon of our <roleName
-							type="honorific">Sav<hi rend="superscript">r</hi></roleName>
-						<add place="above">will</add> see transmilted down to the latest posterity
-						as an unparrelld act of <hi rend="strikethrough">his</hi> love &amp;
-						faithfulness &amp; Generosity to his people. with the conclusion of these
-						dangerous &amp; troublesome Affairs of the Cong<hi rend="superscript"
-						>n</hi>, I reckon I may also conclude one period of my Life w<hi
-							rend="superscript">ch</hi> probably contains pretty near the whole of
-						the mortal past &amp; when I look back how I have spent it and consider that
-						I have been almost twice seven Years in the Kingdom of our <add
-							place="above">dr</add>
-						<roleName type="honorific">Sav<hi rend="superscript">r</hi></roleName>, <name type="emotion">I really
-						Blush</name> &amp; <name type="emotion">my heart is asham&apos;d</name> before my faithful Creator &amp;
-						Redeemer, that I have been so little Joy to Him </p>
+					<pb n="2" facs="https://s3.amazonaws.com/moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-02.jpg"/>
+					<p> <name event="arrival" notAfter-iso="1744-07-20">first <orgName en="œconomy">S. B<hi rend="superscript">rns</hi> Oeconomy</orgName> at <placeName ref="#mlpla000089" type="arrival" cert="high"><placeName key="Holbeck" ref="http://www.wikidata.org/entity/Q2210392">Holbeck</placeName></placeName></name> where I continued till the
+							<date when-iso="1744-07-20">20 <lb/> July 1744</date>, when I was
+						<name emotion="blessed">bless'd</name> by imposition of hands to the <name office="#mloff000018">Office of
+							<lb/>Vorsteher</name> of the S. B<hi rend="superscript">rn</hi>, after
+						wch I was mostly <name office="#mloff000019">employd in Preaching</name> &amp;
+						<lb/> visiting the young Men in the different Societies, which I continued
+						till <date when-iso="1748">1748</date>
+						<lb/> about w<hi rend="superscript">ch</hi> time I was obliged to engage so
+
+						deeply in the <rs ref="#mlocc000078" type="http://sparql.cwrc.ca/ontology/cwrc#Occupation" cert="high">Manufactory</rs> and <lb/>
+						other outward affairs that I declin'd preaching, &amp; for sev<hi rend="superscript">l </hi>years together <lb/> went thro' <name type="emotion">a Scene of <name emotion="distress">Distress</name> in my own Mind</name> with the
+
+						External affairs <lb/> in w<hi rend="superscript">ch</hi> I was engagd,
+						however I continued <hi rend="strikethrough">therein</hi> to assist therein,
+						&amp; went <lb/> several times to <placeName ref="#mlpla000179" cert="high">Holland</placeName> on that
+							Acc<hi rend="superscript">t</hi> &amp; bore a part in most of the
+						Transac <lb/> tions till the year <date when-iso="1753">1753</date>, when
+						Ruin seem'd to threaten our whole Constitution, <lb/> if our dr <roleName type="honorific">Sav<hi rend="superscript">r</hi></roleName> had
+						not miraculously interpos'd &amp; Inspird the d<hi rend="superscript">r</hi> Disciple <lb/> w<hi rend="superscript">th</hi> Courage &amp; Generosity more
+						than Human, whereby he was enabled to <lb/> satisfy all the Creditors, being
+						willing to take all the Debt upon himself <lb/> w<hi rend="superscript">ch</hi> had been Contracted without his knowledge &amp; Consent. 'Tis
+						true I endea <lb/> vour'd to hinder his engaging himself for such vast Sums
+						of Money <lb/> w<hi rend="superscript">ch</hi> He had no visible fund to
+						discharge withal, &amp; wo'd rather have <lb/> <name emotion="suffered">suffer'd</name> any hardships
+						myself, than be the occasion of Involving his <lb/> dr. Person, but he was
+						Resolv'd to do it &amp; did it I dout not at the <lb/> Command of his <roleName type="honorific">Lord</roleName>
+						&amp; Master, who <del>has</del> indeed has miraculously <lb/> help'd him
+						thro' to the <name emotion="wonder">wonder</name> &amp; <name emotion="astonishment">astonishmt</name> of all men both Friend <lb/> &amp;
+						Enemies, &amp; wch certainly among the <name emotion="surprising">Surprising</name> Transactions of <lb/> his
+						Life in the Kingdom of our <roleName type="honorific">Sav<hi rend="superscript">r</hi></roleName>
+						<add place="above">will</add> see transmitted down to the <lb/> latest
+						posterity as an unparrelld act of <hi rend="strikethrough">his</hi> <name emotion="love">love</name> &amp; faithfulness &amp;
+<lb/>
+Generosity to his people. with the conclusion
+						of these dangerous <lb/> &amp; troublesome Affairs of the Cong<hi rend="superscript">n</hi>, I reckon I may also conclude <lb/> one period
+						of my Life w<hi rend="superscript">ch</hi> probably contains pretty near the
+						whole <lb/> of the mortal past &amp; when I look back how I have spent it
+						and <lb/> consider that I have been almost twice seven Years in the Kingdom
+						<lb/> of our<name emotion="dear"> <add place="above"><name emotion="dear">dr</name></add></name> <roleName type="honorific">Sav<hi rend="superscript">r</hi></roleName>,
+							<name type="emotion">I really <name emotion="blush">Blush</name></name> &amp; <name type="emotion">my
+							<name emotion="heart is ashamed">heart is asham'd</name></name> before my <lb/> faithful Creator &amp; <roleName type="honorific">Redeemer</roleName>,
+						that I have been so little <name emotion="joy">Joy</name> to Him </p>
 				</div>
 				<div type="page" n="3">
-					<head type="page">3</head>
-					<pb n="3"
-						facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-03.jpg"/>
-					<p> Him in this world, for all the Smart &amp; pain w<hi rend="superscript"
-							>ch</hi> He has sufferred on my acct, &amp; can only entreat Him that He
-							wo<hi rend="superscript">d</hi> forgive the best actions of my Life,
-						&amp; entirely obliterate the worst &amp; greatest part for when I Reflect
-						upon the whole, my poor heart sincerely sighs <hi rend="underline">Kyrie
-							Eleison</hi>!</p>
-					<p> on his Birth Day <date when-iso="1753-12-16">Dec<hi rend="superscript"
-								>r</hi> 16<hi rend="superscript">th</hi> 1753</date>. He wrote <add
-							place="above">the</add> following My ever dearest Lamb, my only
-							<roleName type="honorific">Saviour</roleName> &amp; Redeemer, my Heart
-						adores &amp; worships thee in thy Crucified <add place="above">&amp;
-							Bleeding</add> form, and with a Sinnerlike heart implores thy Pardon
-						&amp; absolution for every thing in my whole Life. but particularly for
-						every thing in the year past, Thou know&apos;st o my <persName type="deity"
-							>God</persName> that it has been a year of Trial &amp; Temptations to
-						thy People in general &amp; to my poor heart in particular, O forgive I pray
-						thee my dearest Lamb! O forgive all my unfaithfulness, all my unbelief, all
-						my disharmony towards my B<hi rend="superscript">rn</hi> &amp; let every
-						thing that is past be Buried in thy wounds &amp; Rem<add place="above"
-							>em</add>bred no more, &amp; help thy People thro&apos; all Difficulties
-						in w<hi rend="superscript">ch</hi> they are Involv&apos;d to the Honour of
-						thy Name &amp; Gospel &amp; particularly, I entreat thee my dearest
-							<roleName type="honorific">Sav<hi rend="superscript">r</hi></roleName> to
-						bless &amp; preserve me in this my <date when-iso="1754" cert="medium">33<hi
-								rend="superscript">d </hi>year of my Life</date> in wch I am now
-						enter&apos;d, &amp; is the more important to me, as it in the dear of Life
-						in w<hi rend="superscript">ch</hi> thou didst finish the work of our Eternal
-						Redemption, &amp; didst Seql my Salvation with thy most precious Blood; O
-						let it be an ever Memorable year to my heart; O my Lamb let it be the year
-						in w<hi rend="superscript">ch</hi> my whole Being shall be made like unto
-						thee, &amp; wherein everything unlamblike shall be Interr&apos;d for ever,
-						The year wherein I may Receive an everlarding Impression of thy whole
-						Martyr&apos;d Body, that thy dear amiable wounded person may become the
-						Object of all my wishes &amp; desires, &amp; if those shouldest permit me
-						also to finish my course this Year, oh prepare my heart for the enjoyment
-						&amp; possession of thyself, &amp; Receive me as a poor Sinner into thy
-						bleeding arms; or if thou wouldst have one stay still a little longer here,
-						&amp; help me to act my part faithfully to the Honour &amp; to the Joy </p>
+					<pb n="3" facs="https://s3.amazonaws.com/moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-03.jpg"/>
+					<p> Him in this world, for all the Smart &amp; <name emotion="pain">pain</name> w<hi rend="superscript">ch</hi> He has
+						<name emotion="suffered">suffer'd</name> on <lb/> my acct, &amp; can only entreat Him that He wo<hi rend="superscript">d</hi> <name emotion="forgive">forgive</name> the best <lb/> actions of my Life,
+						&amp; entirely obliterate the worst &amp; greatest part <lb/> for when I
+						Reflect upon the whole, my <name emotion="poor heart sincerely sighs">poor heart sincerely sighs</name> <lb/>
+						<hi rend="underline">Kyrie Eleison</hi>!</p>
+					<p> on his Birth Day <date when-iso="1753-12-16">Dec<hi rend="superscript">r</hi> 16<hi rend="superscript">th</hi> 1753</date>. He wrote <add place="above">the</add> following. <lb/> My ever dearest <roleName type="honorific">Lamb</roleName>, my only <roleName type="honorific">Saviour</roleName> &amp; Redeemer, my <name emotion="heart adores">Heart adores</name>
+						<lb/> &amp; worships thee in thy Crucified <add place="above">&amp;
+							Bleeding</add> form, and with a Sinnerlike heart <lb/> implores thy
+						Pardon &amp; absolution for every thing in my whole Life, <lb/> but
+						particularly for every thing in the year past, Thou know'st o <lb/> my
+							<persName type="deity">God</persName> that it has been a year of Trial
+						&amp; <name emotion="temptations">Temptations</name> to thy <lb/> People in general &amp; to my poor heart in
+						particular, O <name emotion="forgive">forgive</name> I pray <lb/> thee my dearest <roleName type="honorific">Lamb</roleName>! O <name emotion="forgive">forgive</name> all my
+						unfaithfulness, all my unbelief, <lb/> all my disharmony towards my B<hi rend="superscript">rn</hi> &amp; let every thing that is past be <lb/>
+						Buried in thy wounds &amp; Rem<add place="above">em</add>bred no more, &amp;
+						help thy People thro' <lb/> all Difficulties in w<hi rend="superscript">ch</hi> they are Involv'd to the Honour of thy Name <lb/> &amp; Gospel
+						&amp; particularly, I entreat thee my dearest <roleName type="honorific">Sav<hi rend="superscript">r</hi></roleName> to <name emotion="bless">bless</name> &amp; preserve
+						<lb/> me in this my <date when-iso="1754" cert="medium">33<hi rend="superscript">d </hi>year of my Life</date> in wch I am now
+						enter'd, &amp; is the more <lb/> important to me, as it is the year of Life
+						in w<hi rend="superscript">ch</hi> thou didst finish the <lb/> work of our
+						Eternal Redemption, &amp; didst Seql my Salvation with thy <lb/> most
+						precious Blood; O let it be an ever Memorable year to my heart; <lb/> O my
+						<roleName type="honorific">Lamb</roleName> let it be the year In w<hi rend="superscript">ch</hi> my whole Being
+						shall be made <lb/> like unto thee, &amp; wherein everything unlamblike
+						shall be Interr'd <lb/> for ever, The year wherein I may Receive an
+						everlasting Impression of <lb/> thy whole Martyr'd Body, that thy dear <name emotion="amiable">amiable</name> wounded person may <lb/> become the Object of all my <name emotion="wishes and desires">wishes &amp; desires</name>, &amp; if those shouldest permit <lb/> me also to finish my course
+						this Year, oh <name emotion="prepare my heart for the enjoyment">prepare my heart for the
+<lb/>
+enjoyment</name> &amp; possession of
+						thyself, &amp; Receive me as a a poor Sinner into <lb/> thy bleeding arms; or
+						if thou wouldst have one stay still a little longer <lb/> here, &amp; help
+						me to act my part faithfully to the Honour &amp; to the <name emotion="joy">Joy</name> </p>
 				</div>
 				<div type="page" n="4">
-					<head type="page">4</head>
-					<pb n="4"
-						facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-04.jpg"/>
-					<p> of thy People, &amp; so impregnate my Tabernacle w<hi rend="superscript"
-							>th</hi> thy holy Hemanel That all the Sids of Corruption may the
-						destroy&apos;d in me, &amp; help me thro&apos; this world w<hi
-							rend="superscript">th</hi> an unspotted Garment, w<hi rend="superscript"
-							>th</hi> a Robe washed &amp; kept clear in thy precious Blood.&quot;</p>
-					<p> The office w<hi rend="superscript">ch</hi> he had in the Cong<hi
-							rend="superscript">r</hi> at <placeName ref="#mlpla000003"
-							>Fulneck</placeName> requiring that he sho have a <name
-							occupation="servant">Helpmate</name>, He enter&apos;d <date
-							when-iso="1754-11-19">Nov<hi rend="superscript">r </hi>19<hi
-								rend="superscript">th</hi> 1754</date> into the <name
-							event="marriage">M<hi rend="superscript">r</hi> State</name> with the S
-							S<hi rend="superscript">r</hi>
-						<persName>Eleanora Gutbier</persName> his present Widow, to whom he had
-						approv&apos;d himself a faithful tender Husband, &amp; they have liv&apos;d
-						near 16 years together in Grace &amp; Blessing.</p>
-					<p> In the year <date when-iso="1755">1755</date> when the place Cong<hi
-							rend="superscript">n</hi> was Settled, He was appointed to be the <name
-							office="warden">Vorsteher (or Warden)</name> of the Cong<hi
-							rend="superscript">n</hi> at the same time <add place="above">that</add>
-						he had the <name occupation="manufacturer">direction of the
-							Manufacture</name>, &amp; in this Office He continued till it pleased
-						our <roleName type="honorific">Lord</roleName> to call him to his Eternal
-						Rest.</p>
-					<p> From the very beginning of the Settlement here, He was particularly
-						engag&apos;d in every undertaking &amp; till the year <date when-iso="1763"
-							>1763</date>, all the external Affairs of this Cong<hi
-							rend="superscript">n</hi> relating to the Settlement viz the
-						Administration of the Estate &amp; Buildings, were in his Hands. In this
-						Situation he had many difficulties to struggle with, &amp; felt often the
-						Lord that was upon him with much concern. From the year 1755, he was not
-						only employed in the External affairs, but He &amp; His dear wife assisted
-						in the Internal Labour. <add place="above">In 1754 He was ordain&apos;d
-							a</add>
-						<add place="above">Deacon of the B<hi rend="superscript">rn&apos;s</hi>
-							Church</add></p>
-					<p> In June 1756, he with his wife went to the Synod at Berthelsdorf Tho&apos;
-						he was chiefly to the Service of the Cong<hi rend="superscript">ns</hi> in
-						Yorkshire, yet he was also engag&apos;d in the Affairs of Ockbrook,
-						Duckenfield, &amp; in sundry concerns of the Unity &amp; our Lord having
-						bestow&apos;d upon him particular Gifts &amp; Grace to his Service, he
-						remain&apos;d active in all those matters.</p>
-					<p> In the Year 1757 he was appointed to be one of the Board of Administation of
-						the Affairs of the Unity in England, &amp; was usefull therein, &amp; when
-						the Oconomates Con<hi rend="superscript">fr</hi> was Settled, he was
-						appointed </p>
+					<pb n="4" facs="https://s3.amazonaws.com/moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-04.jpg"/>
+					<p> of thy People, &amp; so impregnate my Tabernacle w<hi rend="superscript">th</hi> thy holy
+						Humanity, <lb/> That all the Seeds of Corruption may be destroy'd in me,
+						&amp; help me thro' <lb/> this world w<hi rend="superscript">th</hi> an
+						unspotted Garment, w<hi rend="superscript">th</hi> a Robe washed &amp; kept
+						clean in <lb/> thy precious Blood."</p>
+					<p> The office w<hi rend="superscript">ch</hi> he had in the Cong<hi rend="superscript">r</hi>
+						at <placeName ref="#mlpla000003" cert="high">Fulneck</placeName> requiring that he <lb/>
+						sh'd have a <rs memoirSubject="no" ref="#mlocc000075" type="http://sparql.cwrc.ca/ontology/cwrc#Occupation" cert="high">Helpmate</rs>,
+						He enter'd <date when-iso="1754-11-19">Nov<hi rend="superscript">r
+								</hi>19<hi rend="superscript">th</hi> 1754</date> <name event="marriage" when-iso="1754-11-19">into the M<hi rend="superscript">r</hi> State with the
+<lb/>
+S S<hi rend="superscript">r</hi> <persName cert="high" type="real">Eleanora Gutbier</persName></name> his present Widow, to whom he had
+						approv'd himself <lb/> a faithful <name emotion="tender">tender</name> Husband, &amp; they have liv'd near
+						16 years together in <lb/> <name emotion="grace">Grace</name> &amp; <name emotion="blessing">Blessing</name>.</p>
+					<p> In the year <date when-iso="1755">1755</date> when the place Cong<hi rend="superscript">n</hi> was Settled, He was <lb/> appointed to be the <name notBefore-iso="1755" office="#mloff000018">Vorsteher (or Warden)</name> of the Cong<hi rend="superscript">n</hi> at the same time <add place="above">that</add>
+						he <lb/> had the <rs ref="#mlocc000074" type="http://sparql.cwrc.ca/ontology/cwrc#Occupation" cert="high">direction of the Manufacture</rs>, &amp; in this Office He continued till <lb/> it
+						<name emotion="pleased">pleased</name> our <roleName type="honorific">Lord</roleName> to call him to his
+						Eternal Rest.</p>
+					<p> From the very beginning of the Settlement here, He was particularly <lb/> engag'd in every
+						undertaking &amp; till the year <date when-iso="1763">1763</date>, all the
+						external <lb/> Affairs of this Cong<hi rend="superscript">n</hi> relating to
+						the Settlement viz the Administration <lb/> of the Estate &amp; Buildings,
+						were in his Hands. In this Situation <lb/> he had many difficulties to
+						struggle with, &amp; felt often the Lord that <lb/> was upon him with <name emotion="much concern">much concern</name>. From the year <date when="1755" cert="high">1755</date>, he was <lb/> not only employed in the External
+						affairs, but He &amp; His dear wife <lb/> assisted in the Internal Labour.
+							<add place="above">In <date when="1754" cert="high">1754</date> He was ordain'd a</add>
+						<lb/>
+						<add place="above">Deacon of the B<hi rend="superscript">rn's</hi> Church</add></p>
+					<p> In <date when="1756-06" cert="high">June 1756</date>, he with his wife went to the <name event="ecclesiastical" when-iso="1756-06">Synod</name> at <placeName ref="mlpla000026" cert="high">Berthelsdorf</placeName>.  <lb/> Tho' he was
+						chiefly to the Service of the Cong<hi rend="superscript">ns</hi> in <placeName ref="http://www.wikidata.org/entity/Q163" key="Yorkshire" cert="high">Yorkshire</placeName>, yet he was <lb/> also engag'd in the Affairs of <placeName ref="http://dbpedia.org/resource/Ockbrook" key="Ockbrook" cert="high">Ockbrook</placeName>,
+						<placeName ref="mlpla000035" cert="high">Duckenfield</placeName>, &amp; in sundry <name emotion="concerns">concerns</name> <lb/> of the Unity &amp; our <roleName type="honorific">Lord</roleName>
+						having bestow'd upon him particular Gifts &amp; <name emotion="grace">Grace</name> <lb/> to his Service,
+						he remain'd active in all those matters.</p>
+					<p> In the Year <date when-iso="1757">1757</date> he was appointed to be one of the <name office="#mloff000020">Board of <lb/> Administation of the Affairs of
+							the Unity</name> in <placeName ref="#mlpla000072" cert="high">England</placeName>, &amp; was usefull <lb/>
+						therein, &amp; when the Oconomates Con<hi rend="superscript">fr</hi> was
+						Settled, he was appointed <note>a</note>
+					</p>
 				</div>
 				<div type="page" n="5">
-					<head type="page">5</head>
-					<pb n="5"
-						facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-05.jpg"/>
-					<p> a member thereof &amp; continued as such till that Con<hi rend="superscript"
-							>fer</hi> ceas&apos;d in the year 1769. Tho&apos; his Talents in the
-						Conducting the external <add place="above">affairs</add> were known &amp;
-						priz&apos;d by his B<hi rend="superscript">rn</hi> &amp; on that account He
-						was constantly employ&apos;d in that way, yet he also wish&apos;d to be
-						rather employ&apos;d in the Internal Labour, &amp; often express&apos;d his
-						desire to be freed from all his External engagements. In consequence of this
-						his repeated Request, He was Released in 1763 from being immediately active
-						in the Manufacture, tho&apos; he remain&apos;d the Counsellor in it till the
-						year 1766; when it came into another Channel.</p>
-					<p> Being Proprietor of the Estate, He frequently attended the Meetings of the
-						Parish for conducting the Town&apos;s Busyness, &amp; by his prudent advice
-						He gain&apos;d the esteem of the acting persons in the Parish &amp; was of
-						Service in this point of view to the Settlement.</p>
-					<p> He went as Deputy of this Cong<hi rend="superscript">n</hi> to the Gen
-						Synods at Marienborn in 1764 &amp; last Year, &amp; returned from the last
-						very infirm, tho&apos; his disorder w&apos;d not permit him to go much
-						about, yet he assisted in the Labour in the Cong<hi rend="superscript"
-							>n</hi> &amp; from this time, the publick Testimony of our Savr &amp;
-						his Suffrings &amp; the Discourses w<hi rend="superscript">ch</hi> he
-						Deliver&apos;d to the Cong<hi rend="superscript">n</hi> &amp; Choirs were
-						particularly Anointed, &amp; being delivered with warmth of heart were
-						attended with Blessing. So that some B<hi rend="superscript">rn</hi> made
-						for thence the Remark that they believed he wo<hi rend="superscript">d</hi>
-						not stay long in the Church below for he was preparing for the Church above.
-						It was also observ&apos;d in his Discourses &amp; Conversation, the
-						apprehensions He had of the dangerouse principle of Free thinking &amp;
-						acting w<hi rend="superscript">ch</hi> had erept in amongst us, w<hi
-							rend="superscript">ch</hi> might be more hurtful to our Constitution,
-						than any other difficulty we were sensible of</p>
-					<p> He had for many years past frequent Sicknesses, &amp; having a great portion
-						of sensibility, when matters did not go well &amp; contrary to his hopes,
-						his Body felt the effects thereof. He was of a thinking disposition, &amp;
-						when he was shut up in himself, his </p>
+					<pb n="5" facs="https://s3.amazonaws.com/moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-05.jpg"/>
+					<p> a member thereof &amp; continued as such till that Con<hi rend="superscript">fer</hi>
+						ceas'd in the <lb/> year <date when-iso="1769">1769</date>. Tho' his Talents
+						in the Conducting the external <add place="above">affairs</add> were <lb/>
+						known &amp; priz'd by his B<hi rend="superscript">rn</hi> &amp; on that
+						account He was constantly <lb/> employ'd in that way, yet he also <name emotion="wished">wish'd</name> to
+						be rather employ'd in <lb/> the Internal Labour, &amp; often express'd his
+						<name emotion="desire">desire</name> to be freed from all <lb/> his External engagements. In consequence
+						of this his repeated <lb/> Request, He was Released in <date when-iso="1763">1763</date> from being
+						immediately active <lb/> in the <rs ref="#mlocc000076" type="http://sparql.cwrc.ca/ontology/cwrc#Occupation" cert="high">Manufacture, tho' he remain'd the Counsellor in it</rs> till the <lb/> year <date when-iso="1766">1766</date>; when it came into another Channel.</p>
+					<p> Being Proprietor of the Estate, He frequently attended the <name event="ecclesiastical">Meetings
+							<lb/> of the Parish</name> for conducting the Town's Busyness, &amp; by
+						his prudent <lb/> advice He gain'd the <name emotion="esteem">esteem</name> of the acting persons in the
+						Parish &amp; <lb/> was of Service in this point of view to the
+						Settlement.</p>
+					<p> He went as <name office="#mloff000021">Deputy of this Cong<hi rend="superscript">n </hi></name>to
+						the <name event="ecclesiastical" when-iso="1764">Gen Synods</name> at <placeName ref="#mlpla000057" cert="high">Marienborn</placeName>
+						<lb/> in <date when-custom="1764">1764</date> &amp; <date>last Year</date>,
+						&amp; returned from the last very <name health="disease">infirm</name>, tho'
+						his disorder <lb/> w'd not permit him to go much about, yet he assisted in
+						the Labour <lb/> in the Cong<hi rend="superscript">n</hi> &amp; from this
+						time, the publick Testimony of our <roleName type="honorific">Savr</roleName> &amp; his <lb/> <name emotion="sufferings">Suffrings</name> &amp; the Discourses w<hi rend="superscript">ch</hi> he Deliver'd to the Cong<hi rend="superscript">n</hi> &amp; Choirs were <lb/> particularly Anointed,
+						&amp; being delivered with <name emotion="warmth of heart">warmth of heart</name> were <lb/> attended with
+						<name emotion="blessing">Blessing</name>. So that some <roleName type="honorific">B<hi rend="superscript">rn</hi></roleName> made for thence the
+						<lb/> Remark that they believed he wo<hi rend="superscript">d</hi> not stay
+						long in the Church below <lb/> for he was preparing for the Church above. It
+						was also observ'd <lb/> in his Discourses &amp; Conversation, the
+						<name emotion="apprehensions">apprehensions</name> He had of the <lb/> dangerouse principle of Free thinking
+						&amp; acting w<hi rend="superscript">ch</hi> had crept in <lb/> amongst us,
+							w<hi rend="superscript">ch</hi> might be more <name emotion="hurtful">hurtful</name> to our
+						Constitution, than <lb/> any other difficulty we were sensible of</p>
+					<p> He had for many years past frequent <name health="disease">Sicknesses</name>, &amp; having
+						a <lb/> great portion of sensibility, when matters did not go well &amp;
+						contrary <lb/> to his <name emotion="hopes">hopes</name>, his Body felt the effects thereof. He was of a
+						<lb/> thinking disposition, &amp; when he was shut up in himself, his </p>
 				</div>
 				<div type="page" n="6">
-					<head type="page">6</head>
-					<pb n="6"
-						facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-06.jpg"/>
-					<p> inward Grief prey&apos;d upon him, of w<hi rend="superscript">ch</hi> he was
-						sensible &amp; wo<hi rend="superscript">d </hi>speak of at times with
-						concern. All this seem&apos;d to impair his Body &amp; <hi
-							rend="strikethrough">of the after land carnal which </hi> He often said
-						&amp; wrote that his chief Busyness &amp; concern was now to he
-						prepar&apos;d to leave this Body, &amp; to enter into the presence of his
-						Lord.</p>
-					<p> Last spring He had a very severe attack of the stone Cholick of w<hi
-							rend="superscript">ch</hi> He Recovr&apos;d so as to be active in his
-						Office, yet the Effects were Visible. He had a second fitt of sickness with
-						an Inflamation in his Face &amp; a violent pain in his Head by w<hi
-							rend="superscript">ch</hi> he was confin&apos;d to his Room ab<hi
-							rend="superscript">t</hi> a fortnight, but was again so well
-						Recover&apos;d as to go about, but his Constitution was apparently
-						weaken&apos;d w<hi rend="superscript">ch</hi> rais&apos;d the apprehensions
-						of his going home of w<hi rend="superscript">ch</hi> he spoke frequent- ly
-						with desire. He preached on the 15<hi rend="superscript">th</hi> to a very
-						large Auditory with Life &amp; Energy, of the efficacious power in
-						Jesus&apos; Blood &amp; Death to make us New Creatures, and his last meeting
-						kept in the Hall was a Discourse to the Cong<hi rend="superscript">n</hi> on
-						the 16<hi rend="superscript">th</hi> for the Conclusion of the Cong<hi
-							rend="superscript">n</hi> Day on the W. W<hi rend="superscript">d
-						</hi>&quot;Shew forth his Salvation from Day to Day.&quot; which he eamestly
-						Recomended to the Br<hi rend="superscript">n</hi> &amp; S<hi
-							rend="superscript">rs</hi> to put in practice in Life &amp;
-						Conversation,&amp; entreated our D<hi rend="superscript">r</hi> Lord,
-						kneeling to happily effect it with each &amp; the whole; this has
-						prov&apos;d his Valedictory discourse &amp; prayer for this Cong<hi
-							rend="superscript">n</hi> &amp; the work of the Lord in general. He soon
-						after had a Boil w<hi rend="superscript">ch</hi> gathered on his Shoulder
-						&amp; was attended with much pain &amp; inflam&apos;d his Back w<hi
-							rend="superscript">ch</hi> threw him into a Bilious Fever. Even during
-						his sickness he shew&apos;d his wonted paternal heart in Counsel &amp;
-						Friedship to those who came to him, as long as he had strength to speak. He
-						was tender &amp; loving to all, saying once &quot;I have nothing against any
-						one &amp; hope no one has any thing against me. <note type="catchword"
-							>we</note>
+					<pb n="6" facs="https://s3.amazonaws.com/moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-06.jpg"/>
+					<p> <name emotion="inward grief">inward Grief</name> prey'd upon him, of w<hi rend="superscript">ch</hi> he was sensible &amp;
+							wo<hi rend="superscript">d </hi>speak <lb/> of at times with <name emotion="concern">concern</name>.
+						All this seem'd to impair his Body &amp; <lb/>
+						<del>of the after land carnal which </del> He often said &amp; wrote that
+						his chief <lb/> Busyness &amp; <name emotion="concern">concern</name> was now to be prepar'd to leave this
+						Body, &amp; <lb/> to enter into the presence of his Lord.</p>
+					<p> Last spring He had a <name health="recovered">very severe attack of the stone
+							Cholick</name>
+						<lb/> of w<hi rend="superscript">ch</hi> He Recovr'd so as to be active in
+						his Office, yet the Effects <lb/> were Visible. He had a second fitt of
+							<name health="recovered">sickness with an Inflamation <lb/> in his Face
+							&amp; a violent <name emotion="pain">pain</name> in his Head</name> by w<hi rend="superscript">ch</hi> he was confin'd <lb/> to his Room ab<hi rend="superscript">t</hi> a fortnight, but was again so well Recover'd <lb/> as to go
+						about, but his Constitution was apparently weaken'd w<hi rend="superscript">ch</hi>
+						<lb/> rais'd the <name emotion="apprehensions">apprehensions</name> of <name event="spiritual">his going home of w<hi rend="superscript">ch</hi> he spoke frequent
+<lb/>
+ly with <name emotion="desire">desire</name>.</name> He preached on the
+							15<hi rend="superscript">th</hi> to a very large Auditory <lb/> with
+						Life &amp; Energy, of the efficacious power in <persName type="real" cert="high">Jesus</persName>' Blood &amp; <lb/> Death to make us New
+						Creatures, and his last meeting kept in <lb/> the Hall was a Discourse to
+						the Cong<hi rend="superscript">n</hi> on the <date when="1770-07-16" cert="high">16<hi rend="superscript">th</hi> </date> for the Conclusion <lb/> of the Cong<hi rend="superscript">n</hi> Day on the W. W<hi rend="superscript">d </hi>"Shew forth his
+						Salvation from Day <lb/> to Day." which he <name emotion="earnestly">earnestly</name> Recomended to the Br<hi rend="superscript">n</hi> &amp; S<hi rend="superscript">rs</hi> to put
+						<lb/> in practice in Life &amp; Conversation,&amp; entreated our <name emotion="dear">D<hi rend="superscript">r</hi></name> <roleName type="honorific">Lord</roleName>, kneeling <lb/> to <name emotion="happily">happily</name> effect it with
+						each &amp; the whole; this has prov'd his <lb/> Valedictory discourse &amp;
+						prayer for this Cong<hi rend="superscript">n</hi> &amp; the work of the
+						<lb/> Lord in general. He soon after had a Boil w<hi rend="superscript">ch</hi> gathered on his <lb/> Shoulder &amp; was attended with much
+						<name emotion="pain">pain</name> &amp; inflam'd his Back <lb/> w<hi rend="superscript">ch</hi> threw him
+						into a <name health="disease">Bilious Fever</name>. Even during his sickness <lb/> he shew'd his wonted
+						<name emotion="paternal heart">paternal heart</name> in Counsel &amp; Friendship to <lb/> those who came to him, as
+						long as he had strength to speak. <lb/> He was <name emotion="tender">tender</name> &amp; <name emotion="loving">loving</name> to all,
+						saying once "I have nothing against <lb/> any one &amp; <name emotion="hope">hope</name> no one has any
+						thing against me. <note type="catchword">we</note>
 					</p>
 				</div>
 				<div type="page" n="7">
-					<head type="page">7</head>
-					<pb n="7"
-						facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-07.jpg"/>
-					<p> we were still in hopes that by the discharge of the Abcess in his Back (w<hi
-							rend="superscript">ch</hi> was pretty large) his Constitution might have
-						been Reliev&apos;d &amp; he Restor&apos;d to Health, but on the 29th ab<hi
-							rend="superscript">t </hi> 2 in the Morning we observ&apos;d an
-						Alteration &amp; that the weight of his disorder was fallen upon his Lungs,
-						then it became evident that our gracious Lord intended to take him soon into
-						his Joy, w<hi rend="superscript">ch</hi> he himself expect- ed wo<hi
-							rend="superscript">d</hi> be accomplished by the sametime real moving,
-						amidst his pain &amp; weakness. He spent his time in such a tender loving
-						&amp; Paternal manner towards all &amp; especially towards his dear wife
-						&amp; Niece, &amp; those by orphans to whom he had been Guardian, &amp; in
-						looking ardently to his faithful Lord in expectation of the happy Moments
-						quick approach; that it was truly edifying to all who came near him.</p>
-					<p> After 12 o Clock in the Night he ask&apos;d what were the Texts for the Day,
-							w<hi rend="superscript">ch</hi> being Read as follows, the W: W<hi
-							rend="superscript">d</hi>. &quot;My Soul breaketh for longing that it
-						hath unto thy Judgments at all times&quot; Feelest thou the Blood Churches
-						ardent Longings Cheek bedew&apos;d with Million Tears forth thronging from
-						th&apos; enamour&apos;d Churches Face? And the Text,. &quot;Righteousness
-						shall be the Girdle of his Loins &amp; faithfulness the Girdle of his
-						Reins.&quot; With the whole merit of thy Life, Bless us O d<hi
-							rend="superscript">r</hi> Lord &amp; god;&quot; of which He took great
-						notice, saying, how comfortable &amp; pretty they were, believing
-						confidently the time drew near when Faith sho<hi rend="superscript">d</hi>
-						be turn&apos;d into Vision. when the Clock struck two, he seem&apos;d
-						something disappointed that he was yet here, &amp; when another hour was
-						elapesd, He look&apos;d up in an earnest manner, &amp; expressed in his
-						great weakness &amp; pain </p>
+					<pb n="7" facs="https://s3.amazonaws.com/moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-07.jpg"/>
+					<p> we were still in <name emotion="hopes">hopes</name> that by the discharge of the Abcess in <lb/> his Back (w<hi rend="superscript">ch</hi> was pretty large) his Constitution might have
+						been <lb/> Reliev'd &amp; <name health="recovered">he Restor'd to Health</name>, but on the
+							<date when="1770-07-29" cert="high">29th</date> ab<hi rend="superscript">t </hi> 2 in the Morning
+						<lb/> we observ'd an Alteration &amp; that <name health="disease">the weight
+							of his disorder was <lb/> fallen upon his Lungs</name>, then it became
+						evident that our <name emotion="gracious">gracious</name> <lb/> Lord intended to take him soon into his <name emotion="joy">Joy</name>,
+							w<hi rend="superscript">ch</hi> he himself expect <lb/> ed wo<hi rend="superscript">d</hi> be accomplished by the sametime real moving,
+						amidst <lb/> his <name emotion="pain">pain</name> &amp; weakness. He spent his time in such a <name emotion="tender loving and paternal manner">tender loving
+<lb/>
+&amp; Paternal manner</name> towards all &amp; especially towards his
+						dear <lb/> wife &amp; Niece, &amp; those by orphans to whom he had been
+						Guardian, <lb/> &amp; in looking <name emotion="ardently">ardently</name> to his faithful Lord in
+						expectation of the <lb/> <name emotion="happy">happy</name> Moments quick approach; that it was truly
+						edifying <lb/> to all who came near him.</p>
+					<p> After 12 o Clock in the Night he ask'd what were the Texts <lb/> for the Day, w<hi rend="superscript">ch</hi> being Read as follows, the W: W<hi rend="superscript">d</hi>. "My Soul <lb/> breaketh for <name emotion="longing">longing</name> that it
+						hath unto thy Judgments at all <lb/> times" Feelest thou the Blood Churches
+						<name emotion="ardent">ardent</name> <name emotion="longing">Longing</name> <lb/> Cheek bedew'd with Million <name emotion="tears">Tears</name> forth thronging from
+						th' <lb/> <name emotion="enamored">enamour'd</name> Churches Face? And the Text,. "Righteousness <lb/> shall
+						be the Girdle of his Loins &amp; faithfulness the Girdle <lb/> of his
+						Reins." With the whole merit of thy Life, Bless <lb/> us O <name emotion="dear">d<hi rend="superscript">r</hi> </name>Lord &amp; god;" of which He took great
+						notice, saying, <lb/> how <name emotion="comfortable">comfortable</name> &amp; pretty they were, believing
+						confidently <lb/> the time drew near when Faith sho<hi rend="superscript">d</hi> be turn'd into Vision. <lb/> when the Clock struck two, he
+						seem'd something <name emotion="disappointed">disappointed</name> that he <lb/> was yet here, &amp; when another
+						hour was elapesd, He look'd up in <lb/> an <name emotion="earnest manner">earnest manner</name>, &amp; expressed
+						in his great weakness &amp; <name emotion="pain">pain</name> </p>
 				</div>
 				<div type="page" n="8">
-					<head type="page">8</head>
-					<pb n="8"
-						facs="http://moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-09.jpg"/>
-					<p> his Desire to his d<hi rend="superscript">r</hi> Lord, to take him to
-						himself complaining that this hour had been very long. Thus he continued
-						looking for the happy moment being quite Sensible, &amp; when He co<hi
-							rend="superscript">d </hi>speake no more, his Looks &amp; Gestures
-						discouend the object his Soul was engaged with, &amp; about half past Six
-						his Lips turn&apos;d Pale in Jesus&apos; Arms &amp; bosom with the Blessing
-						of the Cong<hi rend="superscript">n</hi> during a blessed Liturgy. A very
-						happy Sensation of our d<hi rend="superscript">r </hi>Lord&apos;s presence
-						was felt during this Night by the B<hi rend="superscript">rn</hi> &amp; S<hi
-							rend="superscript">rs</hi> present, &amp; many Tears accompanied his
-						precious Soul to it eternal home. </p>
-					<p> He has finish&apos;d his course in a very blessed manner in the 49<hi
-							rend="superscript">th</hi> year of his Age. </p>
+					<pb n="8" facs="https://s3.amazonaws.com/moravianlives.bucknell.edu/MAF/Ful_3_02_CharlesworthJames-09.jpg"/>
+					<p> <name event="spiritual">his <name emotion="desire">Desire</name> to his <name emotion="dear">d<hi rend="superscript">r</hi></name> Lord, to take him to himself</name> <name emotion="complaining">complaining</name>
+						<lb/> that this hour had been very long. Thus he continued looking <lb/> for
+						the <name emotion="happy">happy</name> moment being quite Sensible, &amp; when He co<hi rend="superscript">d </hi>speak <lb/> no more, his Looks &amp; Gestures
+						discover'd the object his Soul <lb/> was engaged with, &amp; about half past
+						Six his Lips turn'd Pale <lb/> in Jesus' Arms &amp; bosom with the <name emotion="blessing">Blessing</name>
+						of the Cong<hi rend="superscript">n</hi> during <lb/> a <name emotion="blessed">blessed</name> Liturgy. A
+						<name emotion="very happy sensation">very happy Sensation</name> of <name event="spiritual">our <name emotion="dear">d<hi rend="superscript">r </hi></name> Lord's presence
+<lb/>
+was felt</name> during this Night by the B<hi rend="superscript">rn</hi>
+						&amp; S<hi rend="superscript">rs</hi> present, &amp; many <lb/> <name emotion="tears">Tears</name>
+						accompanied his precious Soul to it eternal home. </p>
+					<p> <name event="death" when-iso="1770-07-30">He has finish'd his course in a <name emotion="very blessed manner">very blessed manner</name> in
+<lb/>
+the 49<hi rend="superscript">th</hi> year of his Age</name>. </p>
 				</div>
 			</div>
 		</body>

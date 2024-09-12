@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/moravianlives/ML/master/CodeScripts/out/MoravianMemoirs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/moravianlives/ML/master/CodeScripts/CSS/moravian_style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Ann Stead: Memoir</title>
+				<funder>The Moravian Lives Project</funder>
+				<principal><persName xml:id="kfaull">Katherine Mary Faull</persName>, Principal Investigator <orgName>Bucknell University</orgName>
+					<address>
+						<addrLine>Lewisburg, Pennsylvania</addrLine>
+					</address>
+					<email>faull@bucknell.edu</email>
+				</principal>
+				<principal><persName>Christer Ahlberger</persName>, Principal Investigator, 2015-2018 <orgName>University of Gothenburg</orgName>
+					<address>
+						<addrLine>Gothenburg, Sweden</addrLine>
+					</address>
+					<email>christer.ahlberger@history.gu.se</email>
+				</principal>
+				<respStmt>
+					<persName xml:id="JAKA1">Diane Jakacki</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Project Manager</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="mmcguire">Michael McGuire</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Developer</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="cmasonheimer">Carly Masonheimer</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Assistant and encoder, 2018-2019</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="mcohen">Marleina Cohen</persName>
+					<resp>Research Assistant and encoder, 2018-2019</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="jhom">Jess Hom</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Assistant and encoder, 2018-Present</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="mmcmullen">Morgan McMullen</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Assistant and encoder, 2019-Present</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="mgruner">Marita Gruner</persName>
+					<orgName>University of Greifswald</orgName>
+					<resp>Encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="skanneman">Sarah Kannemann</persName>
+					<orgName>University of Mainz</orgName>
+					<resp>Encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="jschaumberger">Justin Schaumberger</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Assistant, encoder, ontologist, 2019-Present</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="cpirmann">Carrie Pirmann</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Transkribus, Text Encoding Specialist</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="bking">Brian King</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Consultant, Machine Learning</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="bacharya">Bhagawat Acharya</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Assistant</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<orgName>The Moravian Archives</orgName>
+					<address>
+						<addrLine>41 West Locust Street</addrLine>
+						<addrLine>Bethlehem, PA 18018-2757</addrLine>
+						<addrLine>info@moravianchurcharchives.org</addrLine>
+					</address>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<distributor>The Moravian Lives Project</distributor>
+				<availability>
+					<licence>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository ref="mlpla000003">Moravian Archives, Fulneck</repository>
+						<msName type="memoir" ana="MAF/Ful_3_33_SteadAnn">Ann Stead</msName>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_33_SteadAnn-01.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_33_SteadAnn-02.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_33_SteadAnn-03.jpg"/>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml?date_annotation_20200720114859239",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-07-20T15:48:59.239Z",
+	"dcterms:issued": "2020-07-20T16:34:20.942Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/clm043",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "clm043"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml?date_annotation_20200720114859239#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml?date_annotation_20200720114859239#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[3]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1750"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml?date_annotation_20200720114859241",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-07-20T15:48:59.241Z",
+	"dcterms:issued": "2020-07-20T16:34:20.946Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/clm043",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "clm043"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml?date_annotation_20200720114859241#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml?date_annotation_20200720114859241#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[3]/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1751"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml?date_annotation_20200720114859242",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-07-20T15:48:59.242Z",
+	"dcterms:issued": "2020-07-20T16:34:20.946Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/clm043",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "clm043"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml?date_annotation_20200720114859242#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml?date_annotation_20200720114859242#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1757-01-06"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml?date_annotation_20200720114859242",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-07-20T15:48:59.242Z",
+	"dcterms:issued": "2020-07-20T16:34:20.947Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/clm043",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "clm043"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml?date_annotation_20200720114859242#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml?date_annotation_20200720114859242#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1761-04-18"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml?date_annotation_20200720114859243",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-07-20T15:48:59.243Z",
+	"dcterms:issued": "2020-07-20T16:34:20.947Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/clm043",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "clm043"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml?date_annotation_20200720114859243#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/stead_ann.xml?date_annotation_20200720114859243#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/name/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1772-06-13"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description></rdf:RDF></xenoData><profileDesc>
+			<particDesc>
+				<person role="subject">
+					<persName ref="#mlper000568">Ann Stead</persName>
+				</person>
+			</particDesc>
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="page" n="1">
+				<pb facs="https://s3.amazonaws.com/moravianlives.bucknell.edu/MAF/Ful_3_33_SteadAnn-01.jpg" n="1"/>
+			<p>
+				
+					The Life of the <roleName type="honorific">mar<hi rend="superscript">d</hi>. Sr</roleName> <persName ref="#mlper000568" cert="high" type="real">Ann stead</persName> <name event="death" when-iso="1772-06-13">who departed
+<lb/>
+to her Redeemer <date when="1772-06-13" cert="high">June 13<hi rend="superscript">th</hi> 1772</date></name>
+				</p>
+			<p>
+					She herself dictated the following to her Husband.
+				</p>
+			<p>
+				I was <name event="birth" when-iso="1730-03-28">born at <placeName ref="#mlpla000135" cert="high">Bradford</placeName> March 28<hi rend="superscript">th</hi> 1730</name> &amp; educated in the <lb/>
+				<orgName religion="Anglican">Church of England</orgName>. I grew up in a very <name emotion="careless manner">careless manner</name> <lb/>
+				having no particular thoughts or <name emotion="concern about my salvation">Concern about my Salva-
+<lb/>
+tion</name>. In the Year <date when="1750" cert="high">1750</date> <name event="marriage" when-iso="1750">I was married to my present
+<lb/>
+Husband</name> who belonged to the <orgName religion="Moravian Church">Brethren's Society</orgName>, but being <lb/>
+					<name emotion="gay">gay</name> &amp; liking the world &amp; the ways thereof, I was much
+					against his going to the <name event="religious">B<hi rend="superscript">rns</hi> Meetings</name>, which occasioned <lb/>
+				him to speak very seriously <add place="above">tho <name emotion="tenderness">tenderly</name></add> with me when he told me <lb/>
+				his Reasons for going among the <orgName religion="Moravian Church">Brethren</orgName>, &amp; that he for him, <lb/>
+				self was determined to continue his Connexion with them <lb/>
+				&amp; adhere to the Doctrine he had heard of them, but would <lb/>
+				give me full liberty to go to divine Service <lb/>
+				wherever I chose. I was <name emotion="not satisfied">not satisfied</name> long to go a dif- <lb/>
+				ferent way to my husband, &amp; moreover seeing something <lb/>
+				more in him than I saw in myself &amp; many others I was <lb/>
+				drawn to go with him. In <date when="1751" cert="high">1751</date> <name event="arrival" when-iso="1751">we moved to <placeName ref="#mlpla000090" cert="high">Pudsey</placeName></name> where <lb/>
+				I not only attended the <name event="ecclesiastical">Meetings of the <orgName religion="Moravian Church">B<hi rend="superscript">rn</hi> </orgName></name> but also got <lb/>
+				reacquainted with them to the <name emotion="blessing">blessing</name> <name emotion="of my heart">of my Heart</name>, &amp; soon <lb/>
+				after was <name event="reception">received into the <orgName religion="Moravian Church">Society</orgName></name>. About this Time <lb/>
+				our <roleName type="honorific">Sav<hi rend="superscript">r</hi> </roleName> began to <name emotion="labor powerfully on my heart">labour powerfully on my Heart</name>, &amp; <lb/>
+				particularly did He make it clear to me what a <name emotion="wretched miserable Sinner">wretched
+<lb/>
+miserable Sinner</name> I was, &amp; I continued for some Time in <lb/>
+				<name><name emotion="great distress of Soul">great distress of Soul</name></name>, not knowing what to do or how <lb/>
+				I should be helped. In this Condition I once went in <name emotion="great heaviness">great
+<lb/>
+					Heaviness</name> to a <name event="ecclesiastical">Meeting</name> which <persName ref="#mlper000655"><roleName type="honorific">B<hi rend="superscript">r</hi> </roleName> Parminter</persName> held, during <lb/>
+				which the <roleName type="honorific">Lord</roleName> <name emotion="manifested himself to my heart">manifested Himself to my Heart</name> in his <lb/>
+				bloody Form just so as He expired on the Cross, and He  <lb/>
+				asured me that He had blotted out all my Sins &amp; received <lb/>
+				me as by Child. This was an Hour of <name emotion="grace">grace</name> that has never 
+				
+			</p>
+			</div>
+			<div type="page" n="2">
+				<pb facs="https://s3.amazonaws.com/moravianlives.bucknell.edu/MAF/Ful_3_33_SteadAnn-02.jpg" n="2"/>
+			<p>
+				
+				since been erased out of my Mind. Now <name>I was full of <name emotion="joy">joy</name>
+<lb/>
+&amp; <name emotion="thankfulness">Thankfulnes</name> for the mercy</name> He had shown to my Soul. &amp; <lb/>
+				ever since He has given me that <name emotion="grace">grace</name> that all Times <lb/>
+				&amp; amidst the farther knowlege I had of my own Depravity <lb/>
+				I could always go confidently to Him with all my <name emotion="concern">Concerns</name> <lb/>
+				&amp; cast myself with them upon his <name emotion="merciful heart">merciful Heart</name> &amp; He <lb/>
+				has approved Himself gracious &amp; faithful to me. <date when="1757-01-06" cert="high">Jan: 6<hi rend="superscript">th</hi> <lb/>
+				1757</date> I was <name event="reception" when-iso="1757-01-06">rec<hi rend="superscript">d</hi> into the <orgName en="congregation">Cong<hi rend="superscript">n</hi> </orgName></name> during an <name emotion="overpowering feeling of our Saviour's love">overpowering
+<lb/>
+feeling of our <roleName type="honorific">Sav<hi rend="superscript">rs</hi> </roleName> Love</name> which <name emotion="melted my heart">melted my Heart</name> in such <lb/>
+				a Manner as I am not able to express. <date when="1761-04-18" cert="high">apr. 18<hi rend="superscript">th</hi> 1761</date> I was <lb/>
+				<name event="communion" when-iso="1761-04-18">admitted to the holy Communion</name>, which <name emotion="grace made me deeply ashamed">grace made me
+<lb/>
+deeply ashamed</name>, <name emotion="feeling my great unworthiness">feeling my great unworthiness</name>. This <lb/>
+				caused me to examine more strictly into <lb/>
+				my own Heart, &amp; which also proved the Occasion of my <lb/>
+				<name emotion="diving still deeper">diving still deeper</name> into for <name emotion="heart of love">Heart of Love</name> &amp; experiencing <lb/>
+				more of the <name emotion="grace">grace</name> which He had in Store for me. <lb/>
+				</p>
+			<p>
+					So far her own Account.
+				</p>
+			<p>
+				She had a <name emotion="tender heart">tender Heart</name> to our <roleName type="honorific">Sav<hi rend="superscript">r</hi> </roleName> &amp; spent her <lb/>
+				Time in Communion with Him. Her marriage was <lb/>
+				blest with 10 Children 5 of whom went Home before <lb/>
+				her. She was in a <name health="disease">poor state of Health</name> before the <lb/>
+				Birth of her last child in January &amp; has never been <lb/>
+				well since then. <name health="disease">In her Sickness</name> her Children lay<lb/>
+				upon her Mind with much <name emotion="concern">Concern</name>, &amp; <name>she was <add place="above">exceedingly</add>
+<lb/>
+<name emotion="pained">pained</name></name> at thinking how it might go with them, but <lb/>
+				was obliged to commit them to the Mercy of <persName cert="high" type="real">God</persName> <lb/>
+					She was <name emotion="tenderly">tenderly</name> occupied with our <roleName type="honorific">Sav<hi rend="superscript">r</hi> </roleName> <add place="above">and what He had done for her</add> &amp; had no Incli-  <lb/>
+				nation for Conversation about any other Subject, but <lb/>
+				was all alive whenever He was spoken or sung of. The <lb/>
+					time of her Sickness was a Season of real <name emotion="grace">grace</name> &amp; <name emotion="blessing">Blessing</name>
+				
+			</p>
+			</div>
+			<div type="page" n="3">
+				<pb facs="https://s3.amazonaws.com/moravianlives.bucknell.edu/MAF/Ful_3_33_SteadAnn-03.jpg" n="3"/>
+			<p>
+				
+				<name emotion="to her heart">to her Heart</name>, &amp; on extraordinary presence of our <lb/>
+				<roleName type="honorific">Sav<hi rend="superscript">r</hi> </roleName> was perceived by all the <roleName type="honorific">B<hi rend="superscript">rn</hi> </roleName> &amp; <roleName type="honorific">S<hi rend="superscript">rs</hi> </roleName> whenever <lb/>
+				they visited her, which made it a <name emotion="comfort">comfort</name> &amp; <name emotion="blessing">Blessing</name> to <lb/>
+				them. Her whole Mind was bent upon going Home, <lb/>
+				Being asked if she should not like to recover again <lb/>
+				she replied: "O no! I would mend again for a 1000 worlds." <lb/>
+				Being asked by some of her Neighbours, if she was <name emotion="not afraid to die">not
+<lb/>
+afraid to die</name>, &amp; whether she had <name emotion="no dark apprehension">no dark apprehen-
+<lb/>
+sion</name> at the Thoughts of being soon in Eternity? <lb/>
+				She answered: "no, I have <name emotion="neither fear nor dark apprehensions">neither Fear nor dark
+<lb/>
+apprehensions</name>, but can <name emotion="resign my soul to my Savior with joy">resign my Soul to my
+<lb/>
+<roleName type="honorific">Sav<hi rend="superscript">r</hi> </roleName> with joy</name> &amp; with the same <add place="above">composure</add> &amp; serenity as when <lb/>
+				I go to sleep at Nights because He has granted me <lb/>
+					the <name emotion="happiness">Happiness</name> to know Him as my Friend &amp; Redeemer."
+				</p>
+			<p>
+				She had the <name event="sacrament">holy Communion</name> administred to her <lb/>
+				twice in her House, attended with an <name emotion="extraordinary feeling of grace">extraordinary
+<lb/>
+Feeling of grace</name>. Thus she remained, an Edifica: <lb/>
+				to those who saw &amp; spoke with her, till it <name emotion="pleased">pleased</name> <lb/>
+					our <roleName type="honorific">Sav<hi rend="superscript">r</hi> </roleName> to fetch her Soul to Himself in her 43<hi rend="superscript">d</hi> Year.
+				
+			</p>
+			</div>
+		</body>
+	</text>
+</TEI>

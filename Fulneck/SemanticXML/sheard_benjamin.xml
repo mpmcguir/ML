@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/moravianlives/ML/master/CodeScripts/out/MoravianMemoirs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/moravianlives/ML/master/CodeScripts/CSS/moravian_style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Benjamin Sheard: Memoir</title>
+				<funder>The Moravian Lives Project</funder>
+				<principal><persName xml:id="kfaull">Katherine Mary Faull</persName>, Principal Investigator <orgName>Bucknell University</orgName>
+					<address>
+						<addrLine>Lewisburg, Pennsylvania</addrLine>
+					</address>
+					<email>faull@bucknell.edu</email>
+				</principal>
+				<principal><persName>Christer Ahlberger</persName>, Principal Investigator, 2015-2018 <orgName>University of Gothenburg</orgName>
+					<address>
+						<addrLine>Gothenburg, Sweden</addrLine>
+					</address>
+					<email>christer.ahlberger@history.gu.se</email>
+				</principal>
+				<respStmt>
+					<persName xml:id="JAKA1">Diane Jakacki</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Project Manager</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="mmcguire">Michael McGuire</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Developer</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="cmasonheimer">Carly Masonheimer</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Assistant and encoder, 2018-2019</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="mcohen">Marleina Cohen</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Assistant and encoder, 2018-2019</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="jhom">Jess Hom</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Assistant and encoder, 2018-Present</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="mmcmullen">Morgan McMullen</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Assistant and encoder, 2019-Present</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="mgruner">Marita Gruner</persName>
+					<orgName>University of Greifswald</orgName>
+					<resp>Encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="skanneman">Sarah Kannemann</persName>
+					<orgName>University of Mainz</orgName>
+					<resp>Encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="jschaumberger">Justin Schaumberger</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Assistant, encoder, ontologist, 2019-Present</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="cpirmann">Carrie Pirmann</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Transkribus, Text Encoding Specialist</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="bking">Brian King</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Consultant, Machine Learning</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="bacharya">Bhagawat Acharya</persName>
+					<orgName>Bucknell University</orgName>
+					<resp>Research Assistant</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<orgName>The Moravian Archives</orgName>
+					<address>
+						<addrLine>41 West Locust Street</addrLine>
+						<addrLine>Bethlehem, PA 18018-2757</addrLine>
+						<addrLine>info@moravianchurcharchives.org</addrLine>
+					</address>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<distributor>The Moravian Lives Project</distributor>
+				<availability>
+					<licence>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository ref="mlpla000003">Moravian Archives, Fulneck</repository>
+						<msName type="memoir" ana="MAF/Ful_3_07_SheardBenjamin">Benjamin Sheard</msName>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_07_SheardBenjamin-01.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_07_SheardBenjamin-02.jpg"/>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827333",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-07-20T15:28:27.333Z",
+	"dcterms:issued": "2020-07-20T15:40:31.876Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/clm043",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "clm043"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827333#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827333#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1731"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827335",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-07-20T15:28:27.335Z",
+	"dcterms:issued": "2020-07-20T15:40:31.881Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/clm043",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "clm043"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827335#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827335#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[2]/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1734-04-01"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827336",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-07-20T15:28:27.336Z",
+	"dcterms:issued": "2020-07-20T15:40:31.883Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/clm043",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "clm043"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827336#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827336#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[2]/date[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1738"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827336",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-07-20T15:28:27.336Z",
+	"dcterms:issued": "2020-07-20T15:40:31.883Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/clm043",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "clm043"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827336#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827336#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[2]/date[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1739-01-01"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827337",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-07-20T15:28:27.337Z",
+	"dcterms:issued": "2020-07-20T15:40:31.884Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/clm043",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "clm043"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827337#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827337#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1750-03-02"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827338",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-07-20T15:28:27.338Z",
+	"dcterms:issued": "2020-07-20T15:40:31.884Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/clm043",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "clm043"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827338#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827338#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[3]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1750-09-19"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827339",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-07-20T15:28:27.339Z",
+	"dcterms:issued": "2020-07-20T15:40:31.884Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/clm043",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "clm043"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827339#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827339#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[3]/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1767-08"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827340",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-07-20T15:28:27.340Z",
+	"dcterms:issued": "2020-07-20T15:40:31.884Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/clm043",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "clm043"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827340#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827340#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[5]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1775-09-05"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?person_annotation_20200720112827341",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-07-20T15:28:27.341Z",
+	"dcterms:issued": "2020-07-20T15:40:31.884Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/clm043",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "clm043"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?person_annotation_20200720112827341#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?person_annotation_20200720112827341#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "#mlper000538",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?person_annotation_20200720112827342",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-07-20T15:28:27.342Z",
+	"dcterms:issued": "2020-07-20T15:40:31.885Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/clm043",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "clm043"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?person_annotation_20200720112827342#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?person_annotation_20200720112827342#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "#mlper000536",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827343",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-07-20T15:28:27.343Z",
+	"dcterms:issued": "2020-07-20T15:40:31.885Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/clm043",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "clm043"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827343#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/clm043/ML/master/Fulneck/SemanticXML/sheard_benjamin.xml?date_annotation_20200720112827343#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[2]/name/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1715-11-30"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description></rdf:RDF></xenoData><profileDesc>
+			<particDesc>
+				<person role="subject">
+					<persName ref="#">Benjamin Sheard</persName>
+				</person>
+			</particDesc>
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2019-11-11" who="#cpirmann">Corrected for structure</change>
+			<change>Created TEI file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text type="memoir">
+		<body xml:lang="en">
+			<div type="memoir">
+				<head>Benjamin Sheard</head>
+				<div type="page" n="1">
+					<pb n="1" facs="https://s3.amazonaws.com/moravianlives.bucknell.edu/MAF/Ful_3_07_SheardBenjamin-01.jpg"/>
+					<p>
+						
+							The Life of <roleName type="honorific">B<hi rend="superscript">r</hi> </roleName> <persName ref="#mlper000538" cert="high" type="real">Benjamin Sheard</persName><lb/>
+							who has wrote the following of him self
+						
+					</p>
+					<p>
+						
+						<name event="birth" when-iso="1715-10-30">I was born at <placeName ref="#mlpla000094" cert="high">Littletown in the Parish of Birstal</placeName>
+<lb/>
+<date when="1715-11-30" cert="high">Novr 30<hi rend="superscript">th</hi> 1715</date></name> my Parents beeing <orgName religion="Presbyterian">Presbeterians</orgName>, <lb/>
+						I was <name event="baptism" when-iso="1731">Baptised, &amp; brought up in the <orgName religion="Presbyterian">Same Religion</orgName></name> <lb/>
+						when I was about <date cert="medium" when="1731"> 16 Years of Age</date> my Corruption <lb/>
+						got the mastery over me, and let me in to all manner <lb/>
+						of amusements as Singing &amp; Dancing and the <lb/>
+						<name emotion="pleasures">pleasures</name> of this world, which I pursued with my <lb/>
+						<name emotion="whole heart">Whole Heart</name> for 3 Years, which was a <name emotion="great grief">great Grief</name> <lb/>
+						to my Parents, they admonishd me many times <lb/>
+						to leave of this ways, but all was to no purpose <lb/>
+						for I found I could not help my self. In <date when="1734-04-01" cert="high">April <lb/>
+							1734</date> I was <name event="marriage" when-iso="1734-04">Married with my wife at <placeName ref="#mlpla000220" cert="high">Birstal
+<lb/>
+Church</placeName></name>. In <date when="1738" cert="high">1738</date> I had Some Conversation <lb/>
+						with a man who told me how he had been awaken <lb/>
+						end, and what <name emotion="distress">Distress</name> he had been in &amp; how <lb/>
+						our <roleName type="honorific">Saviour</roleName> had delivered him, he lent me <lb/>
+						a Book to read, called the Young mans Guide <lb/>
+						upon which I begun to read, &amp; to pray &amp; to reform <lb/>
+						my Life, but the <name emotion="happy">happy</name> change did not last <lb/>
+						long, but I fell soon in to my old course again <lb/>
+						untill the <date when="1739-01-01" cert="high">Year 1739</date> when <persName ref="#mlper000536" cert="high" type="real">M<hi rend="superscript">r</hi> Ingham</persName> begun <lb/>
+						to preach and Settled Societys I went to hear <lb/>
+						him, but I felt such a <name emotion="condemnation in my heart">Condemnation in my heart</name>, <lb/>
+						thinking my day of <name emotion="grace">Grace</name> was past &amp; that there <lb/>
+						was no mercy for me, In this situation I remained <lb/>
+						for Some time, but at last our <roleName type="honorific">Saviour</roleName> gave <lb/>
+						<note type="catchword">me</note>
+						
+					</p>
+				</div>
+				<div type="page" n="2">
+					<pb n="2" facs="https://s3.amazonaws.com/moravianlives.bucknell.edu/MAF/Ful_3_07_SheardBenjamin-02.jpg"/>
+					<p>
+						
+						me a <name emotion="gracious look">Gracious Look</name> and <name>Refreshed my <name emotion="poor heart">poor heart</name></name> <lb/>
+						In this <name emotion="happy feeling">happy feeling</name> I went on for Some time, I got  <lb/>
+						more &amp; more acquainted with the <orgName religion="Moravian Church">B<hi rend="superscript">rn</hi> </orgName> which proved <lb/>
+						a <name><name emotion="great blessing">great Blessing</name> <name emotion="to my heart">to my heart</name></name>, but when I began to <lb/>
+						think well of my self <name>I lost that <name emotion="happy feeling">happy feeling</name> and
+<lb/>
+became <name emotion="dry in my heart">dry in my heart</name></name>, but my dear <roleName type="honorific">Saviour</roleName> <lb/>
+						Shewed me my deviation and I crept to Him <lb/>
+						as a Sinner, <date when="1750-03-02" cert="high">March 2<hi rend="superscript">d</hi> 1750</date> I and my wife <lb/>
+						had the <name emotion="grace">Grace</name> &amp; favour to be <name event="reception" when-iso="1750-03-02">Received in to the
+<lb/>
+<orgName en="congregation">Congregation</orgName> at <placeName cert="high" ref="#mlpla000003">Fulneck</placeName></name>, which was a real <lb/>
+						<name emotion="blessing">Blessing</name> <name emotion="for my poor heart">for my poor heart</name>, there I felt that <lb/>
+						our dear <roleName type="honorific">Saviour</roleName> watched in the midst of <lb/>
+						His <orgName en="congregation">Congregation</orgName>, and that I was one of His  <lb/>
+						Family, <name>Some times I <name emotion="distress">wept</name> on account of
+<lb/>
+my faults &amp; wants and Some times my
+<lb/>
+<name emotion="heart near melted">heart near melted</name> with <name emotion="mercy">mercy</name> &amp; <name emotion="forgiveness">forgiveness</name></name>. <lb/>
+						In our married state our <roleName type="honorific">Saviour</roleName> has <lb/>
+						<name emotion="blessed">Blessed</name> us with 12 children 6 sons &amp; <lb/>
+						6 Daughters, all are gone before me <lb/>
+						Except 2 daughters who are under the <lb/>
+						Care of the <orgName en="congregation">Congregation</orgName>, with my wife I  <lb/>
+						<name>have lived <name emotion="happy">happy</name> and <name emotion="agreeable">agreeable</name></name>. 
+						
+					</p>
+					<p>
+						
+						So far his own writings.
+						
+					</p>
+					<p>
+						
+						He partook of the <name event="sacrament" when-iso="1750-09-19">Lords Supper</name> the first time <lb/>
+						with the <orgName en="congregation">Congr<hi rend="superscript">n</hi> </orgName> <date when="1750-09-19" cert="high">Sept 19<hi rend="superscript">th</hi> 1750</date>. He <name event="reception" when-iso="1767-08">became
+<lb/>
+an <name office="#mloff000015">Acoluth</name> of the <orgName religion="Moravian Church">Brethrens church</orgName></name> in <date when="1767-08" cert="high">August <lb/>
+							1767</date>, and he was one of our <name office="#mloff000016">Comittee Brethren</name>
+						
+					</p>
+					<cb/>
+					<p>
+						
+						He was much <name emotion="beloved">beloved</name> by his <orgName religion="Moravian Church">Brn</orgName> &amp; <orgName religion="Moravian Church">Sisters</orgName> <lb/>
+						and by his Neighboors as a Man of <persName type="real" cert="high">God</persName> <lb/>
+						he had a <name emotion="tender heart">tender heart</name> to our dear <roleName type="honorific">Saviour</roleName> <lb/>
+						and took, share in the weal &amp; was <lb/>
+						of the <orgName en="congregation">Congregation</orgName>. And he was Little <lb/>
+							&amp; mean in his own Eyes.
+						
+					</p>
+					<p>
+						
+						he has been <name emotion="troubled">troubled</name> with an <name health="disease">Asthmatich
+<lb/>
+Disorder</name> for Several Years, which he bore <lb/>
+						with great patience He was however able <lb/>
+						to follow his Bussness, &amp; come to the chapel <lb/>
+						till a few weeks before his End, he was <lb/>
+						<name emotion="cheerfully resigned">chearfully Resignd</name> to his dear <roleName type="honorific">Savr</roleName> <lb/>
+						on the <date when="1775-09-05" cert="high">5<hi rend="superscript">th</hi> of Sept</date> <persName cert="high" ref="#mlper000689" type="real"><roleName type="honorific">Br</roleName> Hauptman</persName> <lb/>
+						had a very <name emotion="cheerful">chearful</name> &amp; <name emotion="loving">loving</name> Conversation <lb/>
+						with him about being ready, &amp; without <lb/>
+						<name emotion="fear">fear</name> when our dear <roleName type="honorific">Lord</roleName> calls one <lb/>
+							but no one did think that his End was
+							So near, <name event="death" when-iso="1774-09-07">for on the 7<hi rend="superscript">th</hi> in the afternoon
+<lb/>
+he got permission to leave his mortal
+<lb/>
+Tent</name> in the 59<hi rend="superscript">th</hi> Year of his age.
+						
+					</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
